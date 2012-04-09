@@ -1,0 +1,88 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Bill of Materials for Beer Pong Sense
+/////////////////////////////////////
+/////////////////////////////////////
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Main Board
+/////////////////////////////////////
+
+MICROCONTROLLERS
+
+ATMEL AVR - Still deciding which model
+
+
+LED DRIVING
+
+STP24DP05BTR
+IC LED DRIVER LINEAR 48-TQFP
+
+
+An as yet undecided High-Side Switch
+
+
+
+
+LEDS
+
+PLCC-5050 RGB SMD Chip LED
+
+
+
+RESISTORS
+
+
+
+CAPACITORS
+
+
+
+
+
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Auxilliary Board
+/////////////////////////////////////
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Power Board
+/////////////////////////////////////
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+MISCELLANEOUS COMPONENTS
+/////////////////////////////////////
+
+
+WIRES AND CABLES
+
+
+BATTERIES
+
+Flat Lithium Rechargeable
+
+
+
+
+
+
+
