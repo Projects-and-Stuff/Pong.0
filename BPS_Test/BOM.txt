@@ -1,0 +1,18 @@
+Beer Pong Sense Test Board BOM
+
+The focus of this project is to simulate as closely as possible the actual conditions and parts used on the Beer Pong Sense. Therefore, when sourcing parts for the test board, we'll use the same components that will be used on the final board.
+
+
+MICROCONTROLLER
+---------------
+Mfg Part:			ATMEGA644P-20AU
+URL:				http://search.digikey.com/us/en/products/ATMEGA644P-20AU/ATMEGA644P-20AU-ND/1245864
+Connectivity:		I²C, SPI, UART/USART
+Peripherals:		Brown-out Detect/Reset, POR, PWM, WDT
+GPIO:				32
+Program Memory:		64KB (32K x 16)
+QMatrix Channels:	32/64
+Sliders/Rotors:		4/8
+DigiKey O/H:		7,716
+Price @500:			4.512
+

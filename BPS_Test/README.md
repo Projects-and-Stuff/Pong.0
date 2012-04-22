@@ -31,6 +31,8 @@ Let us know if you fork and make improvements. We'd be glad to consider merges t
 UPDATES:
 
 20120421 - Restarted work on the project after a long hiatus (military deployments make engineering difficult).
+20120422 - Began working BOM based on Parametric information from Atmel and my past QTouch experience. BOM will focus on parts to be used in both the test board and final design.
+
 
 ---
 
