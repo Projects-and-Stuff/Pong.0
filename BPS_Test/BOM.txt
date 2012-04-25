@@ -24,12 +24,6 @@ Verical O/H:		3,840
 Verical Price @500:	$6.204
 
 
-RGB LED
--------
-Assuming 500 total boards (250 sets)
-47*2*250 = 23500 total RGB LEDs
-
-
 
 BATTERY MANAGER
 -------
@@ -68,8 +62,10 @@ AVNET Price @500:	$0.761
 
 PLCC-6 SMD 5050 RGB LED
 -------
+Assuming 500 total boards (250 sets)
+47*2*250 = 23500 total RGB LEDs	
 Mfg Part:		
-URL:			
+URL:		
 O/H:		
 Price @500:		
 
