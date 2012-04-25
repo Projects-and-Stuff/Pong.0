@@ -1,18 +1,124 @@
-Beer Pong Sense Test Board BOM
+Beer Pong Sense Test Board - Bill of Materials (BOM)
 
 The focus of this project is to simulate as closely as possible the actual conditions and parts used on the Beer Pong Sense. Therefore, when sourcing parts for the test board, we'll use the same components that will be used on the final board.
 
 
 MICROCONTROLLER
 ---------------
-Mfg Part:			ATMEGA644P-20AU
-URL:				http://search.digikey.com/us/en/products/ATMEGA644P-20AU/ATMEGA644P-20AU-ND/1245864
+Mfg Part:		ATMEGA644P-20AU
+URL:			http://search.digikey.com/us/en/products/ATMEGA644P-20AU/ATMEGA644P-20AU-ND/1245864
+Package:		44-TQFP
 Connectivity:		I²C, SPI, UART/USART
 Peripherals:		Brown-out Detect/Reset, POR, PWM, WDT
-GPIO:				32
+GPIO:			32
 Program Memory:		64KB (32K x 16)
 QMatrix Channels:	32/64
 Sliders/Rotors:		4/8
 DigiKey O/H:		7,716
-Price @500:			4.512
+Price @500:		$4.512
+Newark O/H:		954
+Newark Price @500:	$4.70
+Mouser O/H:		1,784
+Mouser Price @500:	$4.96
+Verical O/H:		3,840
+Verical Price @500:	$6.204
+
+
+RGB LED
+-------
+Assuming 500 total boards (250 sets)
+47*2*250 = 23500 total RGB LEDs
+
+
+
+BATTERY MANAGER
+-------
+Mfg Part:		BQ24090DGQT
+URL:			http://search.digikey.com/us/en/products/BQ24090DGQT/296-25863-1-ND/2237301
+Battery Type:		Li-Ion
+Charge Current Max:	1A
+Supply Current Max:	1A
+Input Voltage Range:	3.5V-7V Recommended (-0.3V-7V Full range)
+Package:		MSOP-10
+Charge Method:		DC Adapter or USB
+DigiKey O/H:		119
+DigiKey Price @119:	~$0.927
+TI O/H:			500
+TI Price @500:		$0.742
+Newark O/H:		135
+Newark Price @135:	$1.08
+
+
+
+LDO VOLTAGE REGULATOR
+-------
+Mfg Part:		MCP1826T-ADJE/DC
+URL:			http://search.digikey.com/us/en/products/MCP1826T-ADJE%2FDC/MCP1826T-ADJE%2FDCCT-ND/1775344
+Package:		SOT-223-5
+Voltage - Output:	0.8 V ~ 5 V
+Voltage - Input:	2.3 V ~ 6 V
+Voltage - Dropout:	0.25V @ 1A
+Current - Output:	1A
+DigiKey O/H:		14,259
+DigiKey Price @500:	$0.52
+AVNET O/H:		3,411
+AVNET Price @500:	$0.761
+
+
+
+PLCC-6 SMD 5050 RGB LED
+-------
+Mfg Part:		
+URL:			
+O/H:		
+Price @500:		
+
+
+
+DISPLAY DRIVER (x3 per board)
+-------
+Mfg Part:		AS1107WL
+URL:			http://search.digikey.com/us/en/products/AS1107WL-T/AS1107WL-TCT-ND/2334782
+Package:		24-SOIC
+Supply Voltage Range:	2.7 to 5.5V
+Brightness Control:	Digital and Analog
+DigiKey O/H:		2,385
+DigiKey Price @1500:	$4.07
+DigiKey O/H:		2000 (1000/reel)
+DigiKey Price @1000:	$3.33
+Future Electronics O/H:	0 (1000/reel)
+FE Price @1000:		$3.37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMPONENT
+-------
+Mfg Part:		
+URL:			
+DigiKey O/H:		
+Price @500:		
+
+
+
+
+
+
+
+
+
 
