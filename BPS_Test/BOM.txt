@@ -5,7 +5,7 @@ The focus of this project is to simulate as closely as possible the actual condi
 
 MICROCONTROLLER
 ---------------
-Mfg Part:		ATMEGA644P-20AU
+Mfg Part:		ATMEGA644P-20AU (or ATMEGA324P-20AU/ATMEGA164P-20AU)
 URL:			http://search.digikey.com/us/en/products/ATMEGA644P-20AU/ATMEGA644P-20AU-ND/1245864
 Package:		44-TQFP
 Connectivity:		I²C, SPI, UART/USART
