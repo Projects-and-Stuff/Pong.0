@@ -30,9 +30,7 @@ Let us know if you fork and make improvements. We'd be glad to consider merges t
 
 UPDATES:
 
-20120421 - Restarted work on the project after a long hiatus (military deployments make engineering difficult).
-20120422 - Began working BOM based on Parametric information from Atmel and my past QTouch experience. BOM will focus on parts to be used in both the test board and final design.
-20120422 - BPS needs a better name. Going to have to brainstorm. Beer Pong Sense works well as a code name of sorts, like Microsoft's Longhorn, but it doesn't have much of a ring to it.
+All updates now posted to the Project Log in the "Notes" folder of the main project.
 
 ---
 
