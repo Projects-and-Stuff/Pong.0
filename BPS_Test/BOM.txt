@@ -25,7 +25,7 @@ Verical Price @500:	$6.204
 
 
 
-BATTERY MANAGER
+BATTERY MANAGER (Final selection will depend on final batter selection. This one will work if the battery voltage is 6V, but not for a 7.2V battery)
 -------
 Mfg Part:		BQ24090DGQT
 URL:			http://search.digikey.com/us/en/products/BQ24090DGQT/296-25863-1-ND/2237301
@@ -85,6 +85,17 @@ DigiKey Price @1000:	$3.33
 Future Electronics O/H:	0 (1000/reel)
 FE Price @1000:		$3.37
 
+
+
+BATTERY (still working out final specs)
+-------
+Thickness:		<6mm
+Width:			<55mm
+Height:			Don't care
+Voltage Range:		6 to 7.2V
+Typical Capacity: 	~1500mAh@0.2C and ~2200mAh(or 2500)@0.2C
+Max. discharge current:	At least 0.66C
+Cost:			Under $10/ea
 
 
 
