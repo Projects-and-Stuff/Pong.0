@@ -25,25 +25,6 @@ Verical Price @500:	$6.204
 
 
 
-BATTERY MANAGER (Final selection will depend on final batter selection. This one will work if the battery voltage is 6V, but not for a 7.2V battery)
--------
-Mfg Part:		BQ24090DGQT
-URL:			http://search.digikey.com/us/en/products/BQ24090DGQT/296-25863-1-ND/2237301
-Battery Type:		Li-Ion
-Charge Current Max:	1A
-Supply Current Max:	1A
-Input Voltage Range:	3.5V-7V Recommended (-0.3V-7V Full range)
-Package:		MSOP-10
-Charge Method:		DC Adapter or USB
-DigiKey O/H:		119
-DigiKey Price @119:	~$0.927
-TI O/H:			500
-TI Price @500:		$0.742
-Newark O/H:		135
-Newark Price @135:	$1.08
-
-
-
 LDO VOLTAGE REGULATOR
 -------
 Mfg Part:		MCP1826T-ADJE/DC
@@ -89,9 +70,9 @@ FE Price @1000:		$3.37
 
 BATTERY (still working out final specs)
 -------
-Thickness:		<6mm
+Thickness:		<7mm
 Width:			<55mm
-Height:			Don't care
+Length:			Don't care
 Voltage Range:		6 to 7.2V
 Typical Capacity: 	~1500mAh@0.2C and ~2200mAh(or 2500)@0.2C
 Max. discharge current:	At least 0.66C
