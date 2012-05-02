@@ -27,17 +27,25 @@ Verical Price @500:	$6.204
 
 LDO VOLTAGE REGULATOR
 -------
-Mfg Part:		MCP1826T-ADJE/DC
-URL:			http://search.digikey.com/us/en/products/MCP1826T-ADJE%2FDC/MCP1826T-ADJE%2FDCCT-ND/1775344
-Package:		SOT-223-5
-Voltage - Output:	0.8 V ~ 5 V
-Voltage - Input:	2.3 V ~ 6 V
-Voltage - Dropout:	0.25V @ 1A
-Current - Output:	1A
-DigiKey O/H:		14,259
-DigiKey Price @500:	$0.52
-AVNET O/H:		3,411
-AVNET Price @500:	$0.761
+Mfg Part:		SPX29150T-L-5-0/TR
+URL:			http://search.digikey.com/us/en/products/SPX29150T-L-5-0%2FTR/1016-1587-2-ND/2472339
+Package:		TO-263-3
+Voltage - Output:	5 V
+Voltage - Input:	Up to 16V
+Voltage - Dropout:	0.39V @ 1.5A
+Current - Output:	1.5A
+DigiKey O/H Reel:	500
+DigiKey Price @500:	$1.32
+DigiKey O/H:		958
+DigiKey Price @500:	$1.86
+Future Elec O/H:	1,000
+Future Elec Price @500:	$0.90
+Verical O/H:		500
+Verical Price @500:	$0.9614
+Arrow O/H:		500
+Arrow Price @500:	$1.23
+Mouser O/H:		183
+Mouser Price @500:	$1.12
 
 
 
@@ -48,7 +56,7 @@ Assuming 500 total boards (250 sets)
 Mfg Part:		
 URL:		
 O/H:		
-Price @500:		
+Price @23500:		
 
 
 
@@ -63,8 +71,8 @@ DigiKey O/H:		2,385
 DigiKey Price @1500:	$4.07
 DigiKey O/H:		2000 (1000/reel)
 DigiKey Price @1000:	$3.33
-Future Electronics O/H:	0 (1000/reel)
-FE Price @1000:		$3.37
+Future Electronics O/H:	850 (1000/reel)
+FE Price @1000:		$3.49
 
 
 
