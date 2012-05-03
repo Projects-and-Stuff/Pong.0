@@ -88,8 +88,75 @@ Cost:			Under $10/ea
 
 
 
+CAPACITOR TANTALUM 10uF 10V 20% 1206 SMD
+-------
+Mfg Part:		TCJA106M010R0300
+URL:			http://search.digikey.com/us/en/products/TCJA106M010R0300/478-3127-1-ND/827213
+			http://search.digikey.com/us/en/products/TCJA106M010R0300/478-3127-2-ND/827200
+ESR:			300 mOhm
+DigiKey O/H @1000:	18,829
+Price @1000:		$0.38745
+DigiKey O/H @2000:	18,000
+Price @1000:		$0.274
 
 
+
+CAPACITOR CERAMIC 0.1UF 50V 10% X7R 1206 SMD
+-------
+Mfg Part:		GRM319R71H104KA01D
+URL:			http://search.digikey.com/us/en/products/GRM319R71H104KA01D/490-1775-2-ND/586815
+DigiKey O/H:		310439
+Price @12000:		$0.0134
+Used for:		Power In/Out, Decoupling, etc
+
+
+
+CAPACITOR CERAMIC 4.7nF 50V 10% X7R 1206 SMD
+-------
+Mfg Part:		CC1206KRX7R9BB472
+URL:			http://search.digikey.com/us/en/products/CC1206KRX7R9BB472/311-1173-1-ND/303083
+DigiKey O/H:		56,717
+Price @2000:		0.02525
+Used for:		QMatrix RY line capacitors
+
+
+
+CAPACITOR CERAMIC 8PF 50V NPO 0805 SMD
+-------
+Mfg Part:		CC0805DRNPO9BN8R0
+URL:			http://search.digikey.com/us/en/products/CC0805DRNPO9BN8R0/311-1097-1-ND/303007
+DigiKey O/H:		7417
+Price @1000:		0.0165
+Used for:		Crystal load capacitors
+
+
+
+RESISTOR 1.0K OHM 1/4W 5% 1206 SMD
+-------
+Mfg Part:		RC1206JR-071KL
+URL:			http://search.digikey.com/us/en/products/RC1206JR-071KL/311-1.0KERTR-ND/729186
+DigiKey O/H @5000:	195,000
+Price @5000:		0.00283
+Used for:		QMatrix X&Y line resistors
+
+
+
+RESISTOR 470K OHM 1/4W 5% 1206 SMD
+-------
+Mfg Part:		RC1206JR-07470KL
+URL:			http://search.digikey.com/us/en/products/RC1206JR-07470KL/311-470KERCT-ND/732249
+DigiKey O/H:		53,903
+Price @2000:		0.00447
+Used for:		QMatrix RY line resistors
+
+
+
+CRYSTAL 20 MHZ 8pF SMD 1210 SMD
+-------
+Mfg Part:		NX3225SA-20.000000MHZ
+URL:			http://search.digikey.com/us/en/products/NX3225SA-20.000000MHZ/644-1050-1-ND/1128922
+DigiKey O/H:		9900
+Price @500:		0.53762
 
 
 
@@ -108,7 +175,7 @@ Mfg Part:
 URL:			
 DigiKey O/H:		
 Price @500:		
-
+Used for:		
 
 
 

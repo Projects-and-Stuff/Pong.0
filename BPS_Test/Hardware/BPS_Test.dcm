@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0  Date: 5/2/2012 10:18:23 PM
+#
+$CMP AS1107
+D 8-Digit LED Display Drivers
+$ENDCMP
+#
+$CMP CAPSENSOR
+D Capacitive Sensor
+$ENDCMP
+#
+$CMP RGB_LED
+D PLCC 5050 RBG LED
+$ENDCMP
+#
+#End Doc Library
