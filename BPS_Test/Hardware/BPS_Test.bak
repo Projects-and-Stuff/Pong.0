@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/5/2012 1:24:35 AM
+EESchema Schematic File Version 2  date 5/5/2012 11:07:10 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -657,7 +657,7 @@ $Comp
 L SPX29150T-L-5-0/TR #U014
 U 1 1 4FA1B881
 P 4550 1950
-F 0 "#U014" H 4850 1550 60  0000 C CNN
+F 0 "#U014" H 4850 1550 60  0001 C CNN
 F 1 "SPX29150T-L-5-0/TR" H 4550 2100 60  0000 C CNN
 	1    4550 1950
 	1    0    0    -1  

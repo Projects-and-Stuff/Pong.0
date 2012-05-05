@@ -98,6 +98,7 @@ DigiKey O/H @1000:	18,829
 Price @1000:		$0.38745
 DigiKey O/H @2000:	18,000
 Price @1000:		$0.274
+Used for:		Supply filtering
 
 
 
