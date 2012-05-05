@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 5/2/2012 10:18:23 PM
+EESchema-DOCLIB  Version 2.0  Date: 5/4/2012 11:48:04 PM
 #
 $CMP AS1107
 D 8-Digit LED Display Drivers
@@ -10,6 +10,10 @@ $ENDCMP
 #
 $CMP RGB_LED
 D PLCC 5050 RBG LED
+$ENDCMP
+#
+$CMP TL3315
+D TACT SWITCHES SMT - LOW PROFILE
 $ENDCMP
 #
 #End Doc Library

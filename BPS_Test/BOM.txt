@@ -160,6 +160,37 @@ Price @500:		0.53762
 
 
 
+SWITCH TACTILE SPST-NO 0.05A 15V
+-------
+Mfg Part:		TL3315NF160Q
+URL:			http://search.digikey.com/us/en/products/TL3315NF160Q/EG4621CT-ND/1870401
+DigiKey O/H:		88,036
+Price @500:		0.1573
+Used for:		Microcontroller Reset Switch
+
+
+
+INDUCTOR 33UH 10% 1207 SMD
+-------
+Mfg Part:		LB3218T330K
+URL:			http://search.digikey.com/us/en/products/LB3218T330K/587-3083-1-ND/2763508
+DigiKey O/H:		2,440
+Price @500:		0.08526
+Used for:		Microcontroller AVCC Filtering
+
+
+
+
+RESISTOR 4.7K to 10K
+-------
+Mfg Part:		
+URL:			
+DigiKey O/H:		
+Price @500:		
+Used for:		Microcontroller Reset and Pull-up for Slave Select on AS1107
+
+
+
 
 
 
