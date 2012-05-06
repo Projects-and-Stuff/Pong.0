@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/5/2012 11:24:09 AM
+EESchema Schematic File Version 2  date 5/6/2012 12:55:40 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,11 +33,11 @@ LIBS:BPS_Test
 LIBS:BPS_Test-cache
 EELAYER 25  0
 EELAYER END
-$Descr User 14000 11000
+$Descr User 16000 11000
 encoding utf-8
 Sheet 2 3
 Title "BPS Test Sensors"
-Date "5 may 2012"
+Date "6 may 2012"
 Rev "1.0"
 Comp "Projects and Stuff LLC"
 Comment1 ""
