@@ -29,14 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:BPS_Test
-LIBS:BPS_Test-cache
+LIBS:Pong.0_Test
+LIBS:Pong.0_Test-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 16000 11000
 encoding utf-8
 Sheet 3 3
-Title "BPS Test Display"
+Title "Pong.0 Test Display"
 Date "12 may 2012"
 Rev "1.0"
 Comp "Projects and Stuff LLC"

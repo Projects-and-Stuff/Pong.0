@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kit projectId="2" projectName="default" Technology="QMatrix" DeviceVariant="40/44" QTouchDesignVersion="1.0" QTouchLibraryVersion="5.0.1082">
+  <KitLayout>
+    <KitSize width="200" height="100" kitPanelThickness="3" kitImage="" />
+    <Button id="0" name="Button0" width="25" height="50" positionX="9" positionY="13" fromChannel="0" toChannel="0" type="0" />
+    <Button id="1" name="Button1" width="25" height="50" positionX="43" positionY="13" fromChannel="1" toChannel="1" type="0" />
+    <Button id="2" name="Button2" width="25" height="50" positionX="76" positionY="13" fromChannel="2" toChannel="2" type="0" />
+    <Button id="3" name="Button3" width="25" height="50" positionX="111" positionY="12" fromChannel="3" toChannel="3" type="0" />
+  </KitLayout>
+  <GlobalConfiguration recalibrationThreshold="1" detectIntegrationLimit="2" driftHoldTime="20" sensorMaximumDuration="0" negativeDriftRate="20" positiveDriftRate="5" libraryTimingSetting="0" measurementPeriod="50" positiveRecalibrationDelay="0" ticksPerMilliSec="8" />
+  <OtherOprtions delayCycle="1" powerOptimization="" />
+  <SensorConfigurations autoAssign="true">
+    <SensorConfiguration sensorType="1" fromChannel="0" toChannel="0" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="1" toChannel="1" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="2" toChannel="2" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="3" toChannel="3" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+  </SensorConfigurations>
+  <PinConfiguration useDefaultPinConfiguration="False">
+    <Channels SelectedChannel="0" XxY="4x1" />
+    <PinConfig>
+      <XLines>PC2,PC3,PC4,PC5,</XLines>
+      <YALines>PB0,</YALines>
+      <YBLines>PA0,</YBLines>
+      <SMPPort>PB1</SMPPort>
+      <AINOPort>PB2</AINOPort>
+      <Channels SelectedChannel="0" XxY="4x1" />
+    </PinConfig>
+  </PinConfiguration>
+</Kit>

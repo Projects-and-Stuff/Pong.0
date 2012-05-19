@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                             <?xml-stylesheet type='text/xsl' href='Summary.xslt'?><SUMMARY>
+  <DeviceInformation>
+    <DeviceName>ATmega324PA</DeviceName>
+    <DeviceVariant>40/44</DeviceVariant>
+    <Technology>QMatrix</Technology>
+  </DeviceInformation>
+  <SensorInformation TotalSensors="4">
+    <NumberOfButtons>4</NumberOfButtons>
+    <NumberOfWheels>0</NumberOfWheels>
+    <NumberOfSliders>0</NumberOfSliders>
+  </SensorInformation>
+  <ChannelInformation>
+    <TotalChannelsConsumed>4</TotalChannelsConsumed>
+  </ChannelInformation>
+  <PinConfiguration>
+    <AvailablePorts>A,B,C,D</AvailablePorts>
+    <TotalPinsUsed>8</TotalPinsUsed>
+    <PinConfig>
+      <XYLinesConfig>4x1</XYLinesConfig>
+      <XLines>PC2,PC3,PC4,PC5,</XLines>
+      <YALines>PB0,</YALines>
+      <YBLines>PA0,</YBLines>
+      <SMPPort>PB1</SMPPort>
+      <AINOPort>PB2</AINOPort>
+      <Sensors>
+        <Sensor Name="Button0" ChannelName="Channel0" X="PC2" YA="PB0" YB="PA0" />
+        <Sensor Name="Button1" ChannelName="Channel1" X="PC3" YA="PB0" YB="PA0" />
+        <Sensor Name="Button2" ChannelName="Channel2" X="PC4" YA="PB0" YB="PA0" />
+        <Sensor Name="Button3" ChannelName="Channel3" X="PC5" YA="PB0" YB="PA0" />
+      </Sensors>
+    </PinConfig>
+  </PinConfiguration>
+  <LibraryInformation ToolChainName="GCC">
+    <DefaultLibrary>libavr5g3_4qm_4x_1y_k_0rs.a</DefaultLibrary>
+  </LibraryInformation>
+  <MemoryInformation>
+    <DataMemory>
+      <TotalDataMemory>2048</TotalDataMemory>
+      <DataMemoryUsed>73</DataMemoryUsed>
+      <DataMemoryFree>1975</DataMemoryFree>
+    </DataMemory>
+    <CodeMemory>
+      <TotalCodeMemory>32768</TotalCodeMemory>
+      <CodeMemoryUsed>2804</CodeMemoryUsed>
+      <CodeMemoryFree>29964</CodeMemoryFree>
+    </CodeMemory>
+  </MemoryInformation>
+  <OtherOptions>
+    <DelayCycle>1</DelayCycle>
+  </OtherOptions>
+  <ComponentID>qtlib.generic.tmx.qm.avr5g3</ComponentID>
+</SUMMARY>

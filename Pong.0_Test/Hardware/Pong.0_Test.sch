@@ -29,14 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:BPS_Test
-LIBS:BPS_Test-cache
+LIBS:Pong.0_Test
+LIBS:Pong.0_Test-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 16000 11000
 encoding utf-8
 Sheet 1 3
-Title "Beer Pong Sense Test Board"
+Title "Pong.0 Test Board"
 Date "12 may 2012"
 Rev "1.0"
 Comp "Projects and Stuff LLC"
@@ -1202,8 +1202,8 @@ $EndComp
 $Sheet
 S 8550 3400 1850 1500
 U 4FA1C024
-F0 "BPS_Test_Sensors" 60
-F1 "BPS_Test_Sensors.sch" 60
+F0 "Pong.0_Test_Sensors" 60
+F1 "Pong.0_Test_Sensors.sch" 60
 F2 "X0" B L 8550 3750 60 
 F3 "X3" B L 8550 4500 60 
 F4 "X2" B L 8550 4250 60 
@@ -1216,8 +1216,8 @@ $EndSheet
 $Sheet
 S 8550 5350 1850 1500
 U 4FA1BFF8
-F0 "BPS_Test_Display" 60
-F1 "BPS_Test_Display.sch" 60
+F0 "Pong.0_Test_Display" 60
+F1 "Pong.0_Test_Display.sch" 60
 F2 "VIN" I L 8550 5600 60 
 F3 "DIN" I L 8550 5850 60 
 F4 "CLK" I L 8550 6150 60 
