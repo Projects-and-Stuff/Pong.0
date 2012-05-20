@@ -1,6 +1,6 @@
-update=5/19/2012 5:12:58 PM
+update=5/19/2012 5:47:29 PM
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetITyp=0
@@ -77,6 +77,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -140,5 +142,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Pong.0_Test
-[general]
-version=1
