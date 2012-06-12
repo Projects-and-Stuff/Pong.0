@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 5/11/2012 5:54:04 PM
+EESchema-DOCLIB  Version 2.0  Date: 6/2/2012 1:36:44 PM
 #
 $CMP AS1107
 D 8-Digit LED Display Drivers
@@ -14,6 +14,10 @@ $ENDCMP
 #
 $CMP TL3315
 D TACT SWITCHES SMT - LOW PROFILE
+$ENDCMP
+#
+$CMP USBMICRO-B
+D USB Micro B Connector
 $ENDCMP
 #
 #End Doc Library
