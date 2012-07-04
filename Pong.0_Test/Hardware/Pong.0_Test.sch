@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 6/2/2012 2:18:36 PM
+EESchema Schematic File Version 2  date 7/3/2012 9:20:02 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 16000 11000
 encoding utf-8
 Sheet 1 3
 Title "Pong.0 Test Board"
-Date "2 jun 2012"
+Date "4 jul 2012"
 Rev "1.0"
 Comp "Projects and Stuff LLC"
 Comment1 ""
@@ -45,6 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L ATTINY84-SS IC?
+U 1 1 4FF39A32
+P 13200 1950
+F 0 "IC?" H 12450 2700 60  0000 C CNN
+F 1 "ATTINY84-SS" H 13750 1200 60  0000 C CNN
+F 2 "SO14" H 12500 1200 60  0001 C CNN
+	1    13200 1950
+	1    0    0    -1  
+$EndComp
 Connection ~ 2100 1500
 Wire Wire Line
 	2800 1500 1900 1500
@@ -1337,7 +1347,7 @@ DA 75 EC 6A CB FA 00 00 98 83 56 94 E6 19 38 EA C1 56 AE 6A 0F 00 60 29 48 F0 66
 7B B9 BD 6B 01 00 F0 3F 68 45 11 2B 2C 7C CC 8C 27 DE E4 CF 25 0F 00 60 2F 98 D9 8A EB 5A 7C 74 
 6E 56 52 49 51 4E 59 71 7E 65 C5 4D 0F AF 00 BF F6 21 9D BA 45 88 9C 00 16 00 C0 66 90 E0 00 00 
 AC 42 3B 38 00 00 AB 90 E0 00 00 AC 42 82 03 00 B0 EA FF 00 E3 76 B5 A7 81 B6 BC 08 00 00 00 00 
-49 45 4E 44 AE 42 60 82 8C $EndBitmap
+49 45 4E 44 AE 42 60 82 22 $EndBitmap
 EndData
 $EndBitmap
 Text Label 4150 5250 2    60   ~ 0
