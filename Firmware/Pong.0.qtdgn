@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kit projectId="3" projectName="default" Technology="QMatrix" DeviceVariant="40/44" QTouchDesignVersion="1.0" QTouchLibraryVersion="5.0.1082">
+  <KitLayout>
+    <KitSize width="400" height="250" kitPanelThickness="0.1" kitImage="" />
+    <Button id="0" name="Button0" width="11" height="11" positionX="10" positionY="10" fromChannel="0" toChannel="0" type="0" />
+    <Button id="1" name="Button1" width="11" height="11" positionX="31" positionY="10" fromChannel="1" toChannel="1" type="0" />
+    <Button id="2" name="Button2" width="11" height="11" positionX="52" positionY="10" fromChannel="2" toChannel="2" type="0" />
+    <Button id="3" name="Button3" width="11" height="11" positionX="73" positionY="10" fromChannel="3" toChannel="3" type="0" />
+    <Button id="4" name="Button4" width="11" height="11" positionX="94" positionY="10" fromChannel="4" toChannel="4" type="0" />
+    <Button id="5" name="Button5" width="11" height="11" positionX="115" positionY="10" fromChannel="5" toChannel="5" type="0" />
+    <Button id="6" name="Button6" width="11" height="11" positionX="136" positionY="10" fromChannel="6" toChannel="6" type="0" />
+    <Button id="7" name="Button7" width="11" height="11" positionX="157" positionY="10" fromChannel="8" toChannel="8" type="0" />
+    <Button id="8" name="Button8" width="11" height="11" positionX="178" positionY="10" fromChannel="9" toChannel="9" type="0" />
+    <Button id="9" name="Button9" width="11" height="11" positionX="199" positionY="10" fromChannel="10" toChannel="10" type="0" />
+    <Button id="10" name="Button10" width="11" height="11" positionX="220" positionY="10" fromChannel="11" toChannel="11" type="0" />
+    <Button id="11" name="Button11" width="11" height="11" positionX="10" positionY="31" fromChannel="12" toChannel="12" type="0" />
+    <Button id="12" name="Button12" width="11" height="11" positionX="31" positionY="31" fromChannel="13" toChannel="13" type="0" />
+    <Button id="13" name="Button13" width="11" height="11" positionX="52" positionY="31" fromChannel="14" toChannel="14" type="0" />
+    <Button id="14" name="Button14" width="11" height="11" positionX="73" positionY="31" fromChannel="16" toChannel="16" type="0" />
+    <Button id="15" name="Button15" width="11" height="11" positionX="94" positionY="31" fromChannel="17" toChannel="17" type="0" />
+    <Button id="16" name="Button16" width="11" height="11" positionX="115" positionY="31" fromChannel="18" toChannel="18" type="0" />
+    <Button id="17" name="Button17" width="11" height="11" positionX="136" positionY="31" fromChannel="19" toChannel="19" type="0" />
+    <Button id="18" name="Button18" width="11" height="11" positionX="157" positionY="31" fromChannel="20" toChannel="20" type="0" />
+    <Button id="19" name="Button19" width="11" height="11" positionX="178" positionY="31" fromChannel="21" toChannel="21" type="0" />
+  </KitLayout>
+  <GlobalConfiguration recalibrationThreshold="1" detectIntegrationLimit="2" driftHoldTime="20" sensorMaximumDuration="0" negativeDriftRate="20" positiveDriftRate="5" libraryTimingSetting="0" measurementPeriod="50" positiveRecalibrationDelay="0" ticksPerMilliSec="4" />
+  <OtherOprtions delayCycle="1" powerOptimization="" />
+  <SensorConfigurations autoAssign="true">
+    <SensorConfiguration sensorType="1" fromChannel="0" toChannel="0" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="1" toChannel="1" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="2" toChannel="2" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="3" toChannel="3" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="4" toChannel="4" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="5" toChannel="5" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="6" toChannel="6" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="8" toChannel="8" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="9" toChannel="9" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="10" toChannel="10" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="11" toChannel="11" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="12" toChannel="12" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="13" toChannel="13" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="14" toChannel="14" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="16" toChannel="16" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="17" toChannel="17" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="18" toChannel="18" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="19" toChannel="19" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="20" toChannel="20" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+    <SensorConfiguration sensorType="1" fromChannel="21" toChannel="21" aksGroup="0" detectThreshold="10" detectHysteresis="3" positiveRecalibrationFlag="0" />
+  </SensorConfigurations>
+  <PinConfiguration useDefaultPinConfiguration="False">
+    <Channels SelectedChannel="0" XxY="8x4" />
+    <PinConfig>
+      <XLines>PB0,PB1,PB3,PC4,PC5,PC6,PC7,</XLines>
+      <YALines>PA3,PA4,PA5,</YALines>
+      <YBLines>PA0,PA1,PA2,</YBLines>
+      <SMPPort>PA6</SMPPort>
+      <AINOPort>PB2</AINOPort>
+      <Channels SelectedChannel="0" XxY="8x4" />
+    </PinConfig>
+  </PinConfiguration>
+</Kit>

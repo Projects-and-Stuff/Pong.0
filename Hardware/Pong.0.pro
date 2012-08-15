@@ -1,4 +1,4 @@
-update=8/14/2012 11:25:38 PM
+update=8/14/2012 11:13:42 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -141,4 +141,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=Pong.0_Test
+LibName31=Pong.0

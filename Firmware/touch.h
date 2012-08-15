@@ -44,7 +44,7 @@
   * Device Name.
   *
   */
-#define __ATmega324PA__
+#define __ATmega644P__
 
 
 /**
@@ -79,7 +79,7 @@
   * Possible values: 4, 8, 12, 16, 32. in case of QTouch
   * Possible values: 4, 8, 16, 32, 56, 64. in case of QMatrix. 
   */
-  #define QT_NUM_CHANNELS   4
+  #define QT_NUM_CHANNELS   32
 /** 
   * Define the Number X lines to be used.
   * Possible values: 4 and 8
@@ -87,7 +87,7 @@
   * and library selection guide.xls more information on selecting the number of channels.
   *
   */
-#define NUM_X_LINES	4
+#define NUM_X_LINES	8
 /**
   * Specify the number of ports on which X-lines that are distributed.
   * Note: Support is provided only for a maximum of 3 ports for X.
@@ -96,12 +96,13 @@
   * Also, note that code memory increases with the number of ports
   * used for X lines.
   */
-#define NUM_X_PORTS	1
+#define NUM_X_PORTS	2
 /**
   * Specify Which ports have X lines on them. These macros are used
   * to conditionally compile in support for ports driving X lines.
   */
-#define PORT_X_1	C
+#define PORT_X_1	B
+#define PORT_X_2	C
 
 /** 
   * Define the Number Y lines to be used.
@@ -109,29 +110,30 @@
   * Depending on the library used.Please refer to the QTouch library user guide.pdf 
   * and library selection guide.xls more information on selecting the number of channels.
   */
-#define NUM_Y_LINES	1
+#define NUM_Y_LINES	4
 
 /**
   * Specify the port for YA, YB, 
   * For rules to specify the port for YA ,YB please go through QTouch library 
   * user guide .pdf
   */
-#define PORT_YA 	B
+#define PORT_YA 	A
 #define PORT_YB 	A
 
 /**
   * SHARED_YA_YB should be 1 if YA and YB lines are on same port else 0
   */
-#define SHARED_YAYB 	0
+#define SHARED_YAYB 	1
 /**
   * Specify the port for SMP. 
   * And Specify the pin for SMP on selected SMP port. 
   * Any GPIO pin not conflicting with the other touch pins used for the application
   */
 #define PORT_SMP 	A
-#define SMP_PIN 	1
+#define SMP_PIN 	6
 
 #define PORT_NUM_1	1
+#define PORT_NUM_2	2
 
 
 /**
@@ -146,7 +148,7 @@
   * Total ticks per msec.
   * TICKS_PER_MS = (CLK_FREQ/TIMER_PRESCALER)*(1/1000)
   */
-#define TICKS_PER_MS 8u
+#define TICKS_PER_MS 4u
 
 
 

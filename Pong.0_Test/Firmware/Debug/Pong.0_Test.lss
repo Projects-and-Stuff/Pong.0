@@ -19,15 +19,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   7 .debug_abbrev 000002e0  00000000  00000000  0000233b  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   00000692  00000000  00000000  0000261b  2**0
+  8 .debug_line   00000680  00000000  00000000  0000261b  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  000000cc  00000000  00000000  00002cb0  2**2
+  9 .debug_frame  000000cc  00000000  00000000  00002c9c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    00000530  00000000  00000000  00002d7c  2**0
+ 10 .debug_str    0000051a  00000000  00000000  00002d68  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    0000007b  00000000  00000000  000032ac  2**0
+ 11 .debug_loc    0000007b  00000000  00000000  00003282  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 00000010  00000000  00000000  00003327  2**0
+ 12 .debug_ranges 00000010  00000000  00000000  000032fd  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -243,212 +243,84 @@ void init_system( void )
  162:	08 95       	ret
 
 00000164 <_00110000001_>:
-EXTERN reg_clyb;
-EXTERN reg_flyab;
-#endif
-GLOBAL_FUNCTION _00110000001_
-_00110000001_:
-    push usr_1
  164:	7f 93       	push	r23
-    push usr_2
  166:	9f 93       	push	r25
-    in   usr_1,REG(PORT,PORT_YB)
  168:	72 b1       	in	r23, 0x02	; 2
-    mov  usr_2,p_1
  16a:	98 2f       	mov	r25, r24
-    com  usr_2
  16c:	90 95       	com	r25
-    and  usr_1,usr_2
  16e:	79 23       	and	r23, r25
-    out  REG(PORT,PORT_YB),usr_1
  170:	72 b9       	out	0x02, r23	; 2
-    in   usr_1,REG(PORT,PORT_YA)
  172:	75 b1       	in	r23, 0x05	; 5
-    mov  usr_2,p_2
  174:	96 2f       	mov	r25, r22
-    com  usr_2
  176:	90 95       	com	r25
-    and  usr_1,usr_2
  178:	79 23       	and	r23, r25
-    out  REG(PORT,PORT_YA),usr_1
  17a:	75 b9       	out	0x05, r23	; 5
-    mov  usr_2,p_1
  17c:	98 2f       	mov	r25, r24
-    in   usr_1,REG(DDR,PORT_YB)
  17e:	71 b1       	in	r23, 0x01	; 1
-    or   usr_1,usr_2
  180:	79 2b       	or	r23, r25
-    out  REG(DDR,PORT_YB),usr_1
  182:	71 b9       	out	0x01, r23	; 1
-    in   usr_1,REG(DDR,PORT_YA)
  184:	74 b1       	in	r23, 0x04	; 4
-    mov  usr_2,p_2
  186:	96 2f       	mov	r25, r22
-    or   usr_1,usr_2
  188:	79 2b       	or	r23, r25
-    out  REG(DDR,PORT_YA),usr_1
  18a:	74 b9       	out	0x04, r23	; 4
-#if (NUM_X_PORTS>=1)
-    mov  usr_2,p_3
  18c:	94 2f       	mov	r25, r20
-    com  usr_2
  18e:	90 95       	com	r25
-    in   usr_1,REG(PORT,PORT_X_1)
  190:	78 b1       	in	r23, 0x08	; 8
-    and  usr_1,usr_2
  192:	79 23       	and	r23, r25
-    out  REG(PORT,PORT_X_1),usr_1
  194:	78 b9       	out	0x08, r23	; 8
-    in   usr_1, REG(DDR,PORT_X_1)
  196:	77 b1       	in	r23, 0x07	; 7
-    mov  usr_2,p_3
  198:	94 2f       	mov	r25, r20
-    or   usr_1, usr_2
  19a:	79 2b       	or	r23, r25
-    out  REG(DDR,PORT_X_1), usr_1    
  19c:	77 b9       	out	0x07, r23	; 7
-    in   usr_1, REG(DDR,PORT_X_3)
-    mov  usr_2,p_5
-    or   usr_1, usr_2
-    out  REG(DDR,PORT_X_3), usr_1    
-#endif
-    cbi  REG( PORT, PORT_SMP ),SMP_BIT 
  19e:	29 98       	cbi	0x05, 1	; 5
-    sbi  REG( DDR, PORT_SMP ),SMP_BIT
  1a0:	21 9a       	sbi	0x04, 1	; 4
-    pop  usr_2
  1a2:	9f 91       	pop	r25
-    pop  usr_1
  1a4:	7f 91       	pop	r23
-    ret
  1a6:	08 95       	ret
 
 000001a8 <_00110000100_>:
-
-GLOBAL_FUNCTION _00110000100_
-_00110000100_:
-    push usr_1
  1a8:	7f 93       	push	r23
-    push usr_2
  1aa:	9f 93       	push	r25
-    in   usr_1, REG( DDR, PORT_YA ) 
  1ac:	74 b1       	in	r23, 0x04	; 4
-    sts  reg_clya, usr_1
  1ae:	70 93 67 01 	sts	0x0167, r23
-    sts  reg_flya, usr_1
  1b2:	70 93 71 01 	sts	0x0171, r23
-    in   usr_1, REG( DDR, PORT_YB )
  1b6:	71 b1       	in	r23, 0x01	; 1
-    sts  reg_clyb, usr_1
  1b8:	70 93 6a 01 	sts	0x016A, r23
-    sts  reg_flyb, usr_1    
  1bc:	70 93 6b 01 	sts	0x016B, r23
-
-	mov  usr_1, p_1
  1c0:	78 2f       	mov	r23, r24
-    com  usr_1
  1c2:	70 95       	com	r23
-  	lds  usr_2, reg_flya
  1c4:	90 91 71 01 	lds	r25, 0x0171
-    and  usr_2,usr_1
  1c8:	97 23       	and	r25, r23
-    sts  reg_flya, usr_2
  1ca:	90 93 71 01 	sts	0x0171, r25
-  	mov  usr_1, p_2
  1ce:	76 2f       	mov	r23, r22
-    com  usr_1
  1d0:	70 95       	com	r23
-  	lds  usr_2, reg_flyb
  1d2:	90 91 6b 01 	lds	r25, 0x016B
-	and  usr_2,usr_1
  1d6:	97 23       	and	r25, r23
-    sts  reg_flyb, usr_2
  1d8:	90 93 6b 01 	sts	0x016B, r25
-#if (SHARED_YAYB == 1) 
-#elif (SHARED_YAYB == 0)
-  clr  r_v
  1dc:	88 27       	eor	r24, r24
-	_10100001_
-	_01101001_
-	_00011001_
-	_00011001_
-#endif
-    lds  usr_1, reg_flyb 
  1de:	70 91 6b 01 	lds	r23, 0x016B
-    out  REG( DDR, PORT_YB ), usr_1
  1e2:	71 b9       	out	0x01, r23	; 1
-    pop  usr_2
  1e4:	9f 91       	pop	r25
-    pop  usr_1
  1e6:	7f 91       	pop	r23
-    ret
  1e8:	08 95       	ret
 
 000001ea <_00110000010_>:
-GLOBAL_FUNCTION _00110000010_
-_00110000010_:
-#if (SHARED_YAYB == 1)
-    out  REG( DDR, PORT_YA ), p_2
-#elif (SHARED_YAYB == 0)
-    out  REG( DDR, PORT_YA ), p_3
  1ea:	44 b9       	out	0x04, r20	; 4
-#endif
-    out  REG( PIN, PORT_X_1 ), p_1  
  1ec:	86 b9       	out	0x06, r24	; 6
-	_10100010_
-	_01101010_
-	_00011001_
-	_00011001_
-#endif
-    out  REG( DDR, PORT_YB ), p_6
  1ee:	e1 b8       	out	0x01, r14	; 1
-	_00011001_
-#endif
-#if (SHARED_YAYB == 1)
-    out  REG( DDR, PORT_YB ), p_2
-#elif (SHARED_YAYB == 0)
-    out  REG( DDR, PORT_YB ), p_4
  1f0:	21 b9       	out	0x01, r18	; 1
-#endif    
-    out  REG( DDR, PORT_YA ), p_5
  1f2:	04 b9       	out	0x04, r16	; 4
-    out  REG( PIN, PORT_X_1 ), p_1      
  1f4:	86 b9       	out	0x06, r24	; 6
-	_10100100_
-	_01101100_
-	_00011001_
-	_00011001_
-#endif
-    ret
  1f6:	08 95       	ret
 
 000001f8 <_00110000011_>:
-/*//////////////////////////////////////////////////////////////////////////////////    */
-
-
-GLOBAL_FUNCTION _00110000011_
-_00110000011_:
-    sbi  REG( PORT, PORT_SMP ),SMP_BIT  
  1f8:	29 9a       	sbi	0x05, 1	; 5
-    ret
  1fa:	08 95       	ret
 
 000001fc <_00110000110_>:
-   
-GLOBAL_FUNCTION _00110000110_
-_00110000110_:
-    cbi  REG( PORT, PORT_SMP ),SMP_BIT  
  1fc:	29 98       	cbi	0x05, 1	; 5
-    lds  usr_1,reg_clyb 
  1fe:	70 91 6a 01 	lds	r23, 0x016A
-    out  REG( DDR, PORT_YB ), usr_1 
  202:	71 b9       	out	0x01, r23	; 1
-	_10100101_
-	_01101101_
-	_00011001_
-	_00011001_
-#endif
-    ret
  204:	08 95       	ret
 
 00000206 <touch_init>:
