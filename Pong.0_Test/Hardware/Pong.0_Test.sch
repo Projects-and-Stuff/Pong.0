@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2012 11:25:48 PM
+EESchema Schematic File Version 2  date 8/16/2012 10:38:15 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 16000 11000
 encoding utf-8
 Sheet 1 4
 Title "Pong.0 Test Board"
-Date "15 aug 2012"
+Date "17 aug 2012"
 Rev "1.0"
 Comp "Projects and Stuff LLC"
 Comment1 ""
@@ -45,6 +45,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 8550 3400 1850 1500
+U 4FA1C024
+F0 "Pong.0_Test_Sensors" 60
+F1 "Pong.0_Test_Sensors.sch" 60
+F2 "X0" B L 8550 3750 60 
+F3 "X3" B L 8550 4500 60 
+F4 "X2" B L 8550 4250 60 
+F5 "X1" B L 8550 4000 60 
+F6 "SMP" B R 10400 4250 60 
+F7 "Y0B" B R 10400 4000 60 
+F8 "Y0A" B R 10400 3750 60 
+F9 "VREF" B R 10400 4500 60 
+$EndSheet
 Wire Bus Line
 	7100 4350 7100 7700
 Wire Wire Line
@@ -1345,7 +1359,7 @@ DA 75 EC 6A CB FA 00 00 98 83 56 94 E6 19 38 EA C1 56 AE 6A 0F 00 60 29 48 F0 66
 7B B9 BD 6B 01 00 F0 3F 68 45 11 2B 2C 7C CC 8C 27 DE E4 CF 25 0F 00 60 2F 98 D9 8A EB 5A 7C 74 
 6E 56 52 49 51 4E 59 71 7E 65 C5 4D 0F AF 00 BF F6 21 9D BA 45 88 9C 00 16 00 C0 66 90 E0 00 00 
 AC 42 3B 38 00 00 AB 90 E0 00 00 AC 42 82 03 00 B0 EA FF 00 E3 76 B5 A7 81 B6 BC 08 00 00 00 00 
-49 45 4E 44 AE 42 60 82 C1 $EndBitmap
+49 45 4E 44 AE 42 60 82 92 $EndBitmap
 EndData
 $EndBitmap
 Text Label 4150 5250 2    60   ~ 0
@@ -1706,20 +1720,6 @@ F 1 "GND" H 5050 2830 30  0001 C CNN
 	1    5050 2900
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 8550 3400 1850 1500
-U 4FA1C024
-F0 "Pong.0_Test_Sensors" 60
-F1 "Pong.0_Test_Sensors.sch" 60
-F2 "X0" B L 8550 3750 60 
-F3 "X3" B L 8550 4500 60 
-F4 "X2" B L 8550 4250 60 
-F5 "X1" B L 8550 4000 60 
-F6 "SMP" B R 10400 4250 60 
-F7 "Y0B" B R 10400 4000 60 
-F8 "Y0A" B R 10400 3750 60 
-F9 "VREF" B R 10400 4500 60 
-$EndSheet
 $Sheet
 S 8550 5350 1850 1500
 U 4FA1BFF8
