@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/1/2013 1:57:21 AM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 1/2/2013 9:03:38 PM
 
 BeginCmp
 TimeStamp = /4FA1C07C;
@@ -372,6 +372,34 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /50E4E1F9;
+Reference = C53;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E4E209;
+Reference = C54;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E4E6B3;
+Reference = C55;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E4E6AF;
+Reference = C56;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4FA1C024/4FA1E0FA;
 Reference = CS1;
 ValeurCmp = 4.7nF;
@@ -382,42 +410,42 @@ BeginCmp
 TimeStamp = /4FF467AD/504FE9D1;
 Reference = D-S1;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF467AD/504FE9E3;
 Reference = D-S2;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF467AD/504FE9F0;
 Reference = D-S3;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF467AD/504FE9EF;
 Reference = D-S4;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF467AD/504FE9FE;
 Reference = D-S5;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FF467AD/504FE9FF;
 Reference = D-S6;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -571,7 +599,7 @@ BeginCmp
 TimeStamp = /504FECCA;
 Reference = P2;
 ValeurCmp = CONN_10X2;
-IdModule  = ;
+IdModule  = pin_array_10x2;
 EndCmp
 
 BeginCmp
@@ -764,16 +792,16 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCA4E4C;
+TimeStamp = /50E4E1FB;
 Reference = R21;
-ValeurCmp = 10K;
+ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FCA4E51;
+TimeStamp = /50E4E207;
 Reference = R22;
-ValeurCmp = 10K;
+ValeurCmp = 10k;
 IdModule  = SM0805;
 EndCmp
 
@@ -990,6 +1018,20 @@ EndCmp
 BeginCmp
 TimeStamp = /4FA4A307;
 Reference = S1;
+ValeurCmp = TL3315NF160Q;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E4E1FC;
+Reference = S2;
+ValeurCmp = TL3315NF160Q;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E4E206;
+Reference = S3;
 ValeurCmp = TL3315NF160Q;
 IdModule  = ;
 EndCmp

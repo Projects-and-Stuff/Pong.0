@@ -1,7 +1,7 @@
-# EESchema Netlist Version 1.1 created  1/1/2013 1:57:21 AM
+# EESchema Netlist Version 1.1 created  1/2/2013 9:03:38 PM
 (
  ( /4FA1C07C $noname$ BT1 7.4VDC
-  ( 1 N-000026 )
+  ( 1 N-000039 )
   ( 2 GND )
  )
  ( /4FA4ADEE SM0805 C1 0.1uF
@@ -9,7 +9,7 @@
   ( 2 GND )
  )
  ( /4FA1C1B2 SM0805 C2 10uF
-  ( 1 N-000042 )
+  ( 1 N-000040 )
   ( 2 GND )
  )
  ( /4FA599BA SM0805 C3 0.1uF
@@ -17,7 +17,7 @@
   ( 2 GND )
  )
  ( /4FA1C0A4 SM0805 C4 0.1uF
-  ( 1 N-000042 )
+  ( 1 N-000040 )
   ( 2 GND )
  )
  ( /4FA4AD1B SM0805 C5 0.1uF
@@ -25,11 +25,11 @@
   ( 2 GND )
  )
  ( /4FA1D6D6 SM0805 C6 0.1uF
-  ( 1 N-000029 )
+  ( 1 N-000023 )
   ( 2 GND )
  )
  ( /4FA4ACA6 SM0805 C7 0.1uF
-  ( 1 N-000036 )
+  ( 1 N-000041 )
   ( 2 GND )
  )
  ( /4FA1C0B4 SM0805 C8 0.1uF
@@ -149,7 +149,7 @@
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA1F55F SM0805 C37 0.1uF
-  ( 1 N-000065 )
+  ( 1 N-000066 )
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA53D10 SM0805 C38 0.1uF
@@ -173,7 +173,7 @@
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA5344A SM0805 C43 0.1uF
-  ( 1 N-000064 )
+  ( 1 N-000065 )
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA53D1E SM0805 C44 0.1uF
@@ -197,7 +197,7 @@
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA53464 SM0805 C49 0.1uF
-  ( 1 N-000063 )
+  ( 1 N-000064 )
   ( 2 GND )
  )
  ( /4FA1BFF8/4FA5DC8A SM0805 C50 0.1uF
@@ -212,31 +212,47 @@
   ( 1 N-000083 )
   ( 2 GND )
  )
+ ( /50E4E1F9 SM0805 C53 0.1uF
+  ( 1 /UU18 )
+  ( 2 GND )
+ )
+ ( /50E4E209 SM0805 C54 0.1uF
+  ( 1 /UU19 )
+  ( 2 GND )
+ )
+ ( /50E4E6B3 SM0805 C55 0.1uF
+  ( 1 /Pong.0_Test_Slider/VCC )
+  ( 2 GND )
+ )
+ ( /50E4E6AF SM0805 C56 0.1uF
+  ( 1 /Pong.0_Test_Slider/VCC )
+  ( 2 GND )
+ )
  ( /4FA1C024/4FA1E0FA SM0805 CS1 4.7nF
   ( 1 /Pong.0_Test_Sensors/Y0A )
   ( 2 /Pong.0_Test_Sensors/Y0B )
  )
- ( /4FF467AD/504FE9D1 $noname$ D-S1 LED
+ ( /4FF467AD/504FE9D1 SM0805 D-S1 LED
   ( 1 N-000109 )
   ( 2 N-000135 )
  )
- ( /4FF467AD/504FE9E3 $noname$ D-S2 LED
+ ( /4FF467AD/504FE9E3 SM0805 D-S2 LED
   ( 1 N-000132 )
   ( 2 N-000112 )
  )
- ( /4FF467AD/504FE9F0 $noname$ D-S3 LED
+ ( /4FF467AD/504FE9F0 SM0805 D-S3 LED
   ( 1 N-000139 )
   ( 2 N-000134 )
  )
- ( /4FF467AD/504FE9EF $noname$ D-S4 LED
+ ( /4FF467AD/504FE9EF SM0805 D-S4 LED
   ( 1 N-000129 )
   ( 2 N-000111 )
  )
- ( /4FF467AD/504FE9FE $noname$ D-S5 LED
+ ( /4FF467AD/504FE9FE SM0805 D-S5 LED
   ( 1 N-000140 )
   ( 2 N-000138 )
  )
- ( /4FF467AD/504FE9FF $noname$ D-S6 LED
+ ( /4FF467AD/504FE9FF SM0805 D-S6 LED
   ( 1 N-000133 )
   ( 2 N-000110 )
  )
@@ -267,7 +283,7 @@
   ( 24 /Pong.0_Test_Sensors/X3 )
   ( 25 /UU10 )
   ( 26 /UU11 )
-  ( 27 N-000036 )
+  ( 27 N-000041 )
   ( 28 GND )
   ( 29 /Pong.0_Test_Slider/VCC )
   ( 30 /UU05 )
@@ -321,18 +337,18 @@
   ( 32 /Pong.0_Test_Slider/X2_2 )
  )
  ( /4FADB332 $noname$ J1 DC
-  ( 1 N-000026 )
+  ( 1 N-000039 )
   ( 2 GND )
  )
  ( /4FCA4F34 $noname$ J2 USBMICRO-B
-  ( 1 N-000026 )
+  ( 1 N-000039 )
   ( 2 ? )
   ( 3 ? )
   ( 4 ? )
   ( 5 GND )
  )
  ( /4FA4ACCF SM0805 L1 33uH
-  ( 1 N-000036 )
+  ( 1 N-000041 )
   ( 2 /Pong.0_Test_Slider/VCC )
  )
  ( /4FF467AD/502DA13B SM0805 L2 33uH
@@ -340,7 +356,7 @@
   ( 2 N-000108 )
  )
  ( /4FA1BFF8/4FA1EBE4 $noname$ LED1 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000080 )
   ( 3 N-000097 )
   ( 4 N-000046 )
@@ -356,12 +372,12 @@
   ( 6 N-000076 )
  )
  ( /4FA1BFF8/4FA1EEDE $noname$ LED3 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000084 )
   ( 3 N-000097 )
   ( 4 N-000081 )
   ( 5 N-000082 )
-  ( 6 N-000065 )
+  ( 6 N-000066 )
  )
  ( /4FA1BFF8/4FA1EEDF $noname$ LED4 RGB_LED
   ( 1 N-000068 )
@@ -369,10 +385,10 @@
   ( 3 N-000072 )
   ( 4 N-000081 )
   ( 5 N-000067 )
-  ( 6 N-000065 )
+  ( 6 N-000066 )
  )
  ( /4FA1BFF8/4FA1EF8A $noname$ LED5 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000078 )
   ( 3 N-000097 )
   ( 4 N-000044 )
@@ -388,12 +404,12 @@
   ( 6 N-000079 )
  )
  ( /4FA1BFF8/4FA1EF81 $noname$ LED7 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000085 )
   ( 3 N-000097 )
   ( 4 N-000077 )
   ( 5 N-000082 )
-  ( 6 N-000064 )
+  ( 6 N-000065 )
  )
  ( /4FA1BFF8/4FA1EF80 $noname$ LED8 RGB_LED
   ( 1 N-000068 )
@@ -401,10 +417,10 @@
   ( 3 N-000072 )
   ( 4 N-000077 )
   ( 5 N-000067 )
-  ( 6 N-000064 )
+  ( 6 N-000065 )
  )
  ( /4FA1BFF8/4FA1EF8D $noname$ LED9 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000073 )
   ( 3 N-000097 )
   ( 4 N-000045 )
@@ -420,12 +436,12 @@
   ( 6 N-000095 )
  )
  ( /4FA1BFF8/4FA1EF96 $noname$ LED11 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000086 )
   ( 3 N-000097 )
   ( 4 N-000074 )
   ( 5 N-000082 )
-  ( 6 N-000063 )
+  ( 6 N-000064 )
  )
  ( /4FA1BFF8/4FA1EF97 $noname$ LED12 RGB_LED
   ( 1 N-000068 )
@@ -433,10 +449,10 @@
   ( 3 N-000072 )
   ( 4 N-000074 )
   ( 5 N-000067 )
-  ( 6 N-000063 )
+  ( 6 N-000064 )
  )
  ( /4FA1BFF8/4FA5DC66 $noname$ LED13 RGB_LED
-  ( 1 N-000066 )
+  ( 1 N-000061 )
   ( 2 N-000075 )
   ( 3 N-000097 )
   ( 4 N-000094 )
@@ -459,7 +475,7 @@
   ( 5 /Pong.0_Test_Slider/RESET )
   ( 6 GND )
  )
- ( /504FECCA $noname$ P2 CONN_10X2
+ ( /504FECCA pin_array_10x2 P2 CONN_10X2
   ( 1 /UU00 )
   ( 2 /UU10 )
   ( 3 /UU01 )
@@ -593,13 +609,13 @@
   ( 1 /UU17 )
   ( 2 GND )
  )
- ( /4FCA4E4C SM0805 R21 10K
-  ( 1 /UU18 )
-  ( 2 GND )
+ ( /50E4E1FB SM0805 R21 10k
+  ( 1 /Pong.0_Test_Slider/VCC )
+  ( 2 /UU18 )
  )
- ( /4FCA4E51 SM0805 R22 10K
-  ( 1 /UU19 )
-  ( 2 GND )
+ ( /50E4E207 SM0805 R22 10k
+  ( 1 /Pong.0_Test_Slider/VCC )
+  ( 2 /UU19 )
  )
  ( /4FF467AD/50E2820B SM0805 R23 10K
   ( 1 N-000131 )
@@ -687,11 +703,11 @@
  )
  ( /4FA1BFF8/4FA1E852 SM0805 R44 22k
   ( 1 /Pong.0_Test_Slider/VCC )
-  ( 2 N-000061 )
+  ( 2 N-000062 )
  )
  ( /4FA1BFF8/4FA5310A SM0805 R45 22k
   ( 1 /Pong.0_Test_Slider/VCC )
-  ( 2 N-000062 )
+  ( 2 N-000063 )
  )
  ( /4FA1BFF8/4FA53119 SM0805 R46 22k
   ( 1 /Pong.0_Test_Slider/VCC )
@@ -727,9 +743,21 @@
   ( 3 /Pong.0_Test_Slider/RESET )
   ( 4 /Pong.0_Test_Slider/RESET )
  )
+ ( /50E4E1FC $noname$ S2 TL3315NF160Q
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 /UU18 )
+  ( 4 /UU18 )
+ )
+ ( /50E4E206 $noname$ S3 TL3315NF160Q
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 /UU19 )
+  ( 4 /UU19 )
+ )
  ( /4FCA4440 $noname$ SW1 SPST
-  ( 1 N-000026 )
-  ( 2 N-000042 )
+  ( 1 N-000039 )
+  ( 2 N-000040 )
  )
  ( /4FA1BFF8/4FA53118 $noname$ UB1 AS1107
   ( 1 N-000087 )
@@ -738,11 +766,11 @@
   ( 4 GND )
   ( 5 N-000083 )
   ( 6 N-000079 )
-  ( 7 N-000064 )
+  ( 7 N-000065 )
   ( 8 ? )
   ( 9 GND )
-  ( 10 N-000063 )
-  ( 11 N-000065 )
+  ( 10 N-000064 )
+  ( 11 N-000066 )
   ( 12 /Pong.0_Test_Display/LOAD/CSN )
   ( 13 /Pong.0_Test_Display/CLK )
   ( 14 N-000082 )
@@ -775,7 +803,7 @@
   ( 15 ? )
   ( 16 N-000072 )
   ( 17 ? )
-  ( 18 N-000062 )
+  ( 18 N-000063 )
   ( 19 /Pong.0_Test_Slider/VCC )
   ( 20 ? )
   ( 21 ? )
@@ -797,11 +825,11 @@
   ( 11 N-000084 )
   ( 12 /Pong.0_Test_Display/LOAD/CSN )
   ( 13 /Pong.0_Test_Display/CLK )
-  ( 14 N-000066 )
+  ( 14 N-000061 )
   ( 15 ? )
   ( 16 N-000068 )
   ( 17 ? )
-  ( 18 N-000061 )
+  ( 18 N-000062 )
   ( 19 /Pong.0_Test_Slider/VCC )
   ( 20 ? )
   ( 21 ? )
@@ -1092,6 +1120,26 @@ $component C51
  C1-1
 $endlist
 $component C52
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ SM*
+ C?
+ C1-1
+$endlist
+$component C54
+ SM*
+ C?
+ C1-1
+$endlist
+$component C55
+ SM*
+ C?
+ C1-1
+$endlist
+$component C56
  SM*
  C?
  C1-1
