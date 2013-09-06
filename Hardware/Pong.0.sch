@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 8/14/2012 11:12:04 PM
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,570 +31,20 @@ LIBS:contrib
 LIBS:valves
 LIBS:Pong.0
 LIBS:Pong.0-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "Pong.0"
-Date "15 aug 2012"
-Rev "0.1"
+Date "6 sep 2013"
+Rev "0.2"
 Comp "Projects and Stuff LLC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5800 5800 0    60   ~ 0
-X6
-Text Label 5800 5700 0    60   ~ 0
-X5
-Text Label 5800 5600 0    60   ~ 0
-X4
-Text Label 5800 5500 0    60   ~ 0
-X3
-Text Label 5800 4500 0    60   ~ 0
-X2
-Text Label 5800 4300 0    60   ~ 0
-X1
-Text Label 5800 4200 0    60   ~ 0
-X0
-Text Label 5800 3800 0    60   ~ 0
-YA2
-Text Label 5800 3700 0    60   ~ 0
-YA1
-Text Label 5800 3600 0    60   ~ 0
-YA0
-Text Label 5800 3500 0    60   ~ 0
-YB2
-Text Label 5800 3400 0    60   ~ 0
-YB1
-Text Label 5800 3300 0    60   ~ 0
-YB0
-Text Label 5800 4400 0    60   ~ 0
-AIN0
-Text Label 5800 3900 0    60   ~ 0
-SMP
-Wire Wire Line
-	5750 5800 5800 5800
-Wire Wire Line
-	5750 5600 5800 5600
-Wire Wire Line
-	5750 4500 5800 4500
-Wire Wire Line
-	5750 3900 5800 3900
-Wire Wire Line
-	5750 3700 5800 3700
-Wire Wire Line
-	5750 3500 5800 3500
-Wire Wire Line
-	5750 4900 5800 4900
-Wire Wire Line
-	5750 4700 5800 4700
-Wire Wire Line
-	5800 4400 5750 4400
-Wire Wire Line
-	5750 4300 5800 4300
-Wire Wire Line
-	5750 3300 5800 3300
-Wire Wire Line
-	7900 1050 7950 1050
-Wire Wire Line
-	7100 1150 7050 1150
-Wire Wire Line
-	7100 950  7050 950 
-Wire Wire Line
-	4450 1000 4450 950 
-Wire Wire Line
-	4450 950  4200 950 
-Connection ~ 2550 950 
-Wire Wire Line
-	2550 1000 2550 950 
-Wire Wire Line
-	3500 1850 3500 1900
-Wire Wire Line
-	2550 1200 2550 1250
-Wire Wire Line
-	1800 1650 2100 1650
-Wire Wire Line
-	1800 1650 1800 1350
-Wire Wire Line
-	1800 1350 1450 1350
-Wire Wire Line
-	2100 950  2100 1000
-Connection ~ 1500 1350
-Wire Wire Line
-	1500 1350 1500 1600
-Wire Wire Line
-	1500 1600 1450 1600
-Connection ~ 5000 2800
-Wire Wire Line
-	5050 2800 4900 2800
-Wire Wire Line
-	5000 3050 5000 3100
-Wire Wire Line
-	4250 3050 4250 3100
-Wire Wire Line
-	4600 3000 4600 2950
-Wire Wire Line
-	4600 2950 4400 2950
-Wire Wire Line
-	4400 2950 4400 3000
-Connection ~ 2650 4100
-Wire Wire Line
-	2650 4100 2650 4150
-Wire Wire Line
-	2850 4100 2450 4100
-Wire Wire Line
-	2850 4100 2850 3800
-Wire Wire Line
-	2350 4050 2550 4050
-Wire Wire Line
-	2850 3300 2850 3600
-Wire Wire Line
-	2350 3350 2550 3350
-Wire Wire Line
-	3250 4250 3200 4250
-Wire Wire Line
-	3200 4250 3200 3550
-Wire Wire Line
-	3200 3550 3250 3550
-Wire Wire Line
-	3450 4250 3700 4250
-Wire Wire Line
-	3700 4250 3700 4100
-Wire Wire Line
-	3700 4100 3750 4100
-Wire Wire Line
-	3450 3550 3700 3550
-Wire Wire Line
-	3700 3550 3700 3700
-Wire Wire Line
-	3700 3700 3750 3700
-Wire Wire Line
-	3700 4550 3700 4500
-Wire Wire Line
-	3700 4500 3750 4500
-Connection ~ 4600 7050
-Wire Wire Line
-	4600 7000 4600 7050
-Wire Wire Line
-	4500 7000 4500 7050
-Wire Wire Line
-	4500 7050 4800 7050
-Wire Wire Line
-	4800 7050 4800 7000
-Wire Wire Line
-	4700 7000 4700 7050
-Connection ~ 4700 7050
-Connection ~ 4650 7050
-Wire Wire Line
-	4650 7050 4650 7100
-Wire Wire Line
-	3700 4750 3700 4800
-Wire Wire Line
-	3500 3600 3500 3550
-Connection ~ 3500 3550
-Wire Wire Line
-	3500 4200 3500 4250
-Connection ~ 3500 4250
-Wire Wire Line
-	3200 3900 3150 3900
-Connection ~ 3200 3900
-Wire Wire Line
-	2450 3350 2450 3300
-Connection ~ 2450 3350
-Wire Wire Line
-	2650 3300 2650 3250
-Connection ~ 2650 3300
-Wire Wire Line
-	2450 3300 3750 3300
-Connection ~ 2850 3300
-Wire Wire Line
-	2450 4100 2450 4050
-Connection ~ 2450 4050
-Wire Wire Line
-	2650 2750 2650 2700
-Connection ~ 4500 2950
-Wire Wire Line
-	4250 2800 4500 2800
-Wire Wire Line
-	4500 2800 4500 3000
-Wire Wire Line
-	4250 2750 4250 2850
-Connection ~ 4250 2800
-Wire Wire Line
-	4900 2800 4900 3000
-Wire Wire Line
-	5000 2800 5000 2850
-Wire Wire Line
-	5650 2800 5700 2800
-Wire Wire Line
-	1450 1800 1600 1800
-Wire Wire Line
-	1600 1800 1600 950 
-Connection ~ 1600 950 
-Wire Wire Line
-	2100 1650 2100 1600
-Wire Wire Line
-	2750 1200 2750 1250
-Wire Wire Line
-	3500 1600 3500 1650
-Wire Wire Line
-	4250 1200 4250 1250
-Wire Wire Line
-	4450 1200 4450 1250
-Wire Wire Line
-	2800 950  1450 950 
-Connection ~ 2100 950 
-Wire Wire Line
-	2750 1000 2750 950 
-Connection ~ 2750 950 
-Wire Wire Line
-	4250 1000 4250 950 
-Connection ~ 4250 950 
-Wire Wire Line
-	7100 1050 7050 1050
-Wire Wire Line
-	7900 950  7950 950 
-Wire Wire Line
-	7900 1150 7950 1150
-Wire Wire Line
-	5750 4200 5800 4200
-Wire Wire Line
-	5800 4600 5750 4600
-Wire Wire Line
-	5750 4800 5800 4800
-Wire Wire Line
-	5750 3400 5800 3400
-Wire Wire Line
-	5750 3600 5800 3600
-Wire Wire Line
-	5750 3800 5800 3800
-Wire Wire Line
-	5750 4000 5800 4000
-Wire Wire Line
-	5750 5500 5800 5500
-Wire Wire Line
-	5750 5700 5800 5700
-Text Label 7050 1150 2    60   ~ 0
-RESET
-Text Label 7050 1050 2    60   ~ 0
-SCK
-Text Label 7050 950  2    60   ~ 0
-MISO
-Text Label 7950 1150 0    60   ~ 0
-GND
-Text Label 7950 1050 0    60   ~ 0
-MOSI
-Text Label 7950 950  0    60   ~ 0
-VCC
-$Comp
-L CONN_3X2 P?
-U 1 1 502B0F7B
-P 7500 1100
-F 0 "P?" H 7500 1350 50  0000 C CNN
-F 1 "ISP" V 7500 1150 40  0000 C CNN
-	1    7500 1100
-	1    0    0    -1  
-$EndComp
-Text Label 4450 950  0    60   ~ 0
-VCC
-$Comp
-L GND #PWR?
-U 1 1 502B0F28
-P 4450 1250
-F 0 "#PWR?" H 4450 1250 30  0001 C CNN
-F 1 "GND" H 4450 1180 30  0001 C CNN
-	1    4450 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0F27
-P 4450 1100
-F 0 "C?" H 4475 1150 30  0000 L CNN
-F 1 ".1uF" H 4475 1050 30  0000 L CNN
-	1    4450 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0F21
-P 4250 1100
-F 0 "C?" H 4275 1150 30  0000 L CNN
-F 1 "10uF" H 4275 1050 30  0000 L CNN
-	1    4250 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0F20
-P 4250 1250
-F 0 "#PWR?" H 4250 1250 30  0001 C CNN
-F 1 "GND" H 4250 1180 30  0001 C CNN
-	1    4250 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0F08
-P 3500 1750
-F 0 "C?" H 3525 1800 30  0000 L CNN
-F 1 ".1uF" H 3525 1700 30  0000 L CNN
-	1    3500 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0F07
-P 3500 1900
-F 0 "#PWR?" H 3500 1900 30  0001 C CNN
-F 1 "GND" H 3500 1830 30  0001 C CNN
-	1    3500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0EE9
-P 2550 1250
-F 0 "#PWR?" H 2550 1250 30  0001 C CNN
-F 1 "GND" H 2550 1180 30  0001 C CNN
-	1    2550 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0EE7
-P 2750 1250
-F 0 "#PWR?" H 2750 1250 30  0001 C CNN
-F 1 "GND" H 2750 1180 30  0001 C CNN
-	1    2750 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0ED0
-P 2750 1100
-F 0 "C?" H 2775 1150 30  0000 L CNN
-F 1 "10uF" H 2775 1050 30  0000 L CNN
-	1    2750 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0ECD
-P 2550 1100
-F 0 "C?" H 2575 1150 30  0000 L CNN
-F 1 ".1uF" H 2575 1050 30  0000 L CNN
-	1    2550 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPX29150T-L-5-0/TR U?
-U 1 1 502B0EB4
-P 3500 950
-F 0 "U?" H 3800 550 60  0000 C CNN
-F 1 "SPX29150T-L-5-0/TR" H 3500 1100 60  0000 C CNN
-	1    3500 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BATTERY BT?
-U 1 1 502B0E33
-P 2100 1300
-F 0 "BT?" H 2100 1500 50  0000 C CNN
-F 1 "BATTERY" H 2100 1110 50  0000 C CNN
-	1    2100 1300
-	0    1    1    0   
-$EndComp
-NoConn ~ 1450 1250
-NoConn ~ 1450 1150
-NoConn ~ 1450 1050
-Text Notes 1400 1800 0    60   ~ 0
-+
-Text Notes 1400 1600 0    60   ~ 0
--
-$Comp
-L CONN_2 P?
-U 1 1 502B0DE0
-P 1100 1700
-F 0 "P?" V 1050 1700 40  0000 C CNN
-F 1 "CONN_2" V 1150 1700 40  0000 C CNN
-	1    1100 1700
-	-1   0    0    1   
-$EndComp
-$Comp
-L USBMICRO-B U?
-U 1 1 502B0DCE
-P 1150 1150
-F 0 "U?" H 1050 850 60  0000 C CNN
-F 1 "USBMICRO-B" H 1000 1450 60  0000 C CNN
-	1    1150 1150
-	1    0    0    -1  
-$EndComp
-Text Label 5700 2800 0    60   ~ 0
-VCC
-$Comp
-L INDUCTOR L?
-U 1 1 502B0D76
-P 5350 2800
-F 0 "L?" V 5300 2800 40  0000 C CNN
-F 1 "33uH" V 5450 2800 40  0000 C CNN
-	1    5350 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0D5E
-P 5000 3100
-F 0 "#PWR?" H 5000 3100 30  0001 C CNN
-F 1 "GND" H 5000 3030 30  0001 C CNN
-	1    5000 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0D50
-P 5000 2950
-F 0 "C?" H 5025 3000 30  0000 L CNN
-F 1 ".1uF" H 5025 2900 30  0000 L CNN
-	1    5000 2950
-	1    0    0    -1  
-$EndComp
-Text Label 4250 2750 0    60   ~ 0
-VCC
-$Comp
-L GND #PWR?
-U 1 1 502B0D34
-P 4250 3100
-F 0 "#PWR?" H 4250 3100 30  0001 C CNN
-F 1 "GND" H 4250 3030 30  0001 C CNN
-	1    4250 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0D25
-P 4250 2950
-F 0 "C?" H 4275 3000 30  0000 L CNN
-F 1 ".1uF" H 4275 2900 30  0000 L CNN
-	1    4250 2950
-	1    0    0    -1  
-$EndComp
-Text Label 2650 2700 0    60   ~ 0
-VCC
-$Comp
-L GND #PWR?
-U 1 1 502B0CE7
-P 2650 4150
-F 0 "#PWR?" H 2650 4150 30  0001 C CNN
-F 1 "GND" H 2650 4080 30  0001 C CNN
-	1    2650 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0C7C
-P 2850 3700
-F 0 "C?" H 2875 3750 30  0000 L CNN
-F 1 ".1uF" H 2875 3650 30  0000 L CNN
-	1    2850 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TL3315NF160Q S?
-U 1 1 502B0C70
-P 2450 3700
-F 0 "S?" H 2500 3550 60  0000 C CNN
-F 1 "TL3315NF160Q" H 2350 3900 60  0000 C CNN
-	1    2450 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R?
-U 1 1 502B0C58
-P 2650 3000
-F 0 "R?" V 2730 3000 50  0000 C CNN
-F 1 "R" V 2650 3000 50  0000 C CNN
-	1    2650 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0BEF
-P 3150 3900
-F 0 "#PWR?" H 3150 3900 30  0001 C CNN
-F 1 "GND" H 3150 3830 30  0001 C CNN
-	1    3150 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0BEA
-P 3350 3550
-F 0 "C?" H 3375 3600 30  0000 L CNN
-F 1 "8pF" H 3375 3500 30  0000 L CNN
-	1    3350 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0BE4
-P 3350 4250
-F 0 "C?" H 3375 4300 30  0000 L CNN
-F 1 "8pF" H 3375 4200 30  0000 L CNN
-	1    3350 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CRYSTAL X?
-U 1 1 502B0BD4
-P 3500 3900
-F 0 "X?" H 3500 4050 60  0000 C CNN
-F 1 "20MHz" H 3500 3750 60  0000 C CNN
-	1    3500 3900
-	0    -1   -1   0   
-$EndComp
-Text Label 3700 4500 2    60   ~ 0
-VCC
-$Comp
-L GND #PWR?
-U 1 1 502B0B87
-P 3700 4800
-F 0 "#PWR?" H 3700 4800 30  0001 C CNN
-F 1 "GND" H 3700 4730 30  0001 C CNN
-	1    3700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CSMALL C?
-U 1 1 502B0B79
-P 3700 4650
-F 0 "C?" H 3725 4700 30  0000 L CNN
-F 1 ".1uF" H 3725 4600 30  0000 L CNN
-	1    3700 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 502B0B40
-P 4650 7100
-F 0 "#PWR?" H 4650 7100 30  0001 C CNN
-F 1 "GND" H 4650 7030 30  0001 C CNN
-	1    4650 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ATMEGA644P-A IC?
-U 1 1 502B0A50
-P 4750 5000
-F 0 "IC?" H 3950 6830 50  0000 L BNN
-F 1 "ATMEGA644P-A" H 4950 3100 50  0000 L BNN
-F 2 "TQFP44" H 4100 3150 50  0001 C CNN
-	1    4750 5000
-	1    0    0    -1  
-$EndComp
 $Bitmap
 Pos 1350 9900
 Scale 1.000000
@@ -979,7 +429,37 @@ DA 75 EC 6A CB FA 00 00 98 83 56 94 E6 19 38 EA C1 56 AE 6A 0F 00 60 29 48 F0 66
 7B B9 BD 6B 01 00 F0 3F 68 45 11 2B 2C 7C CC 8C 27 DE E4 CF 25 0F 00 60 2F 98 D9 8A EB 5A 7C 74 
 6E 56 52 49 51 4E 59 71 7E 65 C5 4D 0F AF 00 BF F6 21 9D BA 45 88 9C 00 16 00 C0 66 90 E0 00 00 
 AC 42 3B 38 00 00 AB 90 E0 00 00 AC 42 82 03 00 B0 EA FF 00 E3 76 B5 A7 81 B6 BC 08 00 00 00 00 
-49 45 4E 44 AE 42 60 82 4A $EndBitmap
+49 45 4E 44 AE 42 60 82 36 $EndBitmap
 EndData
 $EndBitmap
+$Comp
+L ATXMEGA64A4U-A IC?
+U 1 1 5229977D
+P 4600 4700
+F 0 "IC?" H 3900 5850 50  0000 L BNN
+F 1 "ATXMEGA64A4U-A" H 4850 3500 50  0000 L BNN
+F 2 "TQFP44" H 4050 3550 50  0001 C CNN
+F 3 "" H 4600 4700 60  0000 C CNN
+	1    4600 4700
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 13600 2750 2450 1800
+U 52299B51
+F0 "LED_Display" 50
+F1 "LED_Display.sch" 50
+$EndSheet
+$Comp
+L TPS61240 U?
+U 1 1 5229A024
+P 6350 1600
+F 0 "U?" H 6600 1150 60  0000 C CNN
+F 1 "TPS61240" H 6250 1950 60  0000 C CNN
+F 2 "" H 6350 1500 60  0000 C CNN
+F 3 "" H 6350 1500 60  0000 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 6100 2100 0    60   ~ 0
+5V 0.45A\nBoost\nRegulator
 $EndSCHEMATC
