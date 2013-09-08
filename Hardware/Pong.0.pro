@@ -1,4 +1,4 @@
-update=9/6/2013 10:03:31 PM
+update=9/8/2013 10:48:15 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -119,3 +119,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=Pong.0
+LibName32=bq24163
+LibName33=usb-micro-b
+LibName34=IP4234CZ6

@@ -30,14 +30,17 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Pong.0
+LIBS:bq24163
+LIBS:usb-micro-b
+LIBS:IP4234CZ6
 LIBS:Pong.0-cache
 EELAYER 27 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title "Pong.0"
-Date "6 sep 2013"
+Date "8 sep 2013"
 Rev "0.2"
 Comp "Projects and Stuff LLC"
 Comment1 ""
@@ -223,4 +226,60 @@ F 3 "" H 7100 4650 60  0000 C CNN
 	1    7100 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L CSMALL C?
+U 1 1 522CB32E
+P 5300 2550
+F 0 "C?" H 5325 2600 30  0000 L CNN
+F 1 "1uF" H 5325 2500 30  0000 L CNN
+F 2 "~" H 5300 2550 60  0000 C CNN
+F 3 "~" H 5300 2550 60  0000 C CNN
+	1    5300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CSMALL C?
+U 1 1 522CB33B
+P 5000 2550
+F 0 "C?" H 5025 2600 30  0000 L CNN
+F 1 "0.1uF" H 5025 2500 30  0000 L CNN
+F 2 "~" H 5000 2550 60  0000 C CNN
+F 3 "~" H 5000 2550 60  0000 C CNN
+	1    5000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 522CB343
+P 5000 2700
+F 0 "#PWR?" H 5000 2700 30  0001 C CNN
+F 1 "GND" H 5000 2630 30  0001 C CNN
+F 2 "" H 5000 2700 60  0000 C CNN
+F 3 "" H 5000 2700 60  0000 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 522CB350
+P 5300 2700
+F 0 "#PWR?" H 5300 2700 30  0001 C CNN
+F 1 "GND" H 5300 2630 30  0001 C CNN
+F 2 "" H 5300 2700 60  0000 C CNN
+F 3 "" H 5300 2700 60  0000 C CNN
+	1    5300 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2650 5000 2700
+Wire Wire Line
+	5300 2650 5300 2700
+Wire Wire Line
+	5000 2450 5000 2400
+Wire Wire Line
+	5000 2400 5550 2400
+Wire Wire Line
+	5300 2400 5300 2450
+Connection ~ 5550 2400
+Connection ~ 5300 2400
 $EndSCHEMATC

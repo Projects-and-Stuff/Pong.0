@@ -30,16 +30,19 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Pong.0
+LIBS:bq24163
+LIBS:usb-micro-b
+LIBS:IP4234CZ6
 LIBS:Pong.0-cache
 EELAYER 27 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 3
-Title ""
-Date "6 sep 2013"
-Rev ""
-Comp ""
+Sheet 2 4
+Title "Pong.0"
+Date "8 sep 2013"
+Rev "0.2"
+Comp "Projects and Stuff LLC"
 Comment1 ""
 Comment2 ""
 Comment3 ""
