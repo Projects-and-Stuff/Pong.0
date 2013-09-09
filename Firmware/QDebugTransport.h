@@ -34,14 +34,17 @@
 #ifndef DEBUGTRANSPORT_H_INCLUDED
 #define DEBUGTRANSPORT_H_INCLUDED
 
-/*----------------------------------------------------------------------------
-nested include files
-----------------------------------------------------------------------------*/
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+/*============================ INCLUDES ======================================*/
 #include "touch_api.h"
+#include "QDebug.h"
 
-/*----------------------------------------------------------------------------
-macros
-----------------------------------------------------------------------------*/
+
+/*============================ MACROS ========================================*/
+
 #define MESSAGE_START	0x1B
 #define INT(a, b)	((a << 8) | b)
 #define STATE_IDLE      0
@@ -65,9 +68,8 @@ macros
    #define RX_BUFFER_SIZE (QT_NUM_CHANNELS*3)+10
 #endif
 
-/*----------------------------------------------------------------------------
-extern variables
-----------------------------------------------------------------------------*/
+/*============================ EXTERNAL VARIABLES ==============================*/
+
 extern uint8_t TX_Buffer[TX_BUFFER_SIZE];
 extern uint16_t TX_index;
 extern uint8_t RX_Buffer[RX_BUFFER_SIZE];
@@ -77,21 +79,58 @@ extern uint8_t SequenceL;
 extern uint8_t SequenceH;
 extern unsigned int gMsTimeout;
 
-/*----------------------------------------------------------------------------
-prototypes
-----------------------------------------------------------------------------*/
-void Init_Buffers(void);
+/*============================ PROTOTYPES ====================================*/
+
+/*! \brief Initialize the send and receive buffers.
+ * \note Called from QDebug_Init.
+ */
+  void Init_Buffers (void);
 void Set_datamode(unsigned char mode);
 
-// Send functions
-void PutChar(uint8_t data);
-void PutInt(uint16_t data);
-uint8_t GetChar(void);
-void Send_Message(void);
+/*! \brief Puts one byte in the Transmit Buffer.
+ * \param data: byte to be sent.
+ * \note Called from QDebug_Init.
+ */
+  void PutChar (uint8_t data);
 
-// Receive functions
-uint8_t Receive_Message(void);
-uint8_t RxHandler(uint8_t c);
+/*! \brief Puts two bytes in the Transmit Buffer.
+ * \param data: 16bit data to be sent.
+ * \note Big Endian. TX_index is post incremented.
+ */
+  void PutInt (uint16_t data);
+
+/*! \brief Get one byte from the Receive Buffer.
+ * \return uint8_t: byte received.
+ * \note RX_index is post incremented.
+ */
+  uint8_t GetChar (void);
+
+/*! \brief Send the content of the TX_Buffer to the USB Bridge using the
+ * interface selected in QDebugSettings.h
+ * \note Called from the transmit functions in QDebug.c.
+ */
+  void Send_Message (void);
+
+/*! \brief Executes a master read transmission if TWI is selected as interface.
+ * Checks if RX_Buffer has a valid frame
+ * \return uint8_t: returns a true or false dependent on whether a valid frame is
+ * available or not
+ * \note Called from QDebug_ProcessCommands in QDebug.c.
+ */
+  uint8_t Receive_Message (void);
+
+/*! \brief Handles the incoming bytes from the interface selected in
+ * QDebugSettings.h and puts the bytes in the RX_Buffer data read by
+ * the selected interface
+ * \return uint8_t: returns a true if more data must be read,
+ * returns a false if the frame is complete
+ * \note Used by SPI and TWI receive handlers.
+ */
+  uint8_t RxHandler (uint8_t c);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-EOF-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/

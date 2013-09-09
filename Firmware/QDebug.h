@@ -39,15 +39,15 @@
 nested include files
 ----------------------------------------------------------------------------*/
 #include "touch_api.h"
-
-/*----------------------------------------------------------------------------
-manifest constants
-----------------------------------------------------------------------------*/
+#include "QDebugSettings.h"
+/*======================== MANIFEST CONSTANTS ================================*/
 #if (defined (QDEBUG_SPI) || defined (QDEBUG_SPI_BB))
    #define _OPT_SRAM_
 #endif
 
-// Subscription definitions
+/*! \name Subscription definitions.
+ */
+//! @{
 #define SUBS_SIGN_ON     	         0
 #define SUBS_GLOBAL_CONFIG	         1
 #define SUBS_SENSOR_CONFIG	         2
@@ -58,16 +58,20 @@ manifest constants
 #define SUBS_QM_BURST_LENGTHS        7
 #define SUBS_TIMESTAMPS              8
 #define SUBS_USER_DATA               9
-
-// PC commands
+//! @}
+/*! \name PC commands.
+ */
+//! @{
 #define QT_CMD_DUMMY                   0x10
 #define QT_CMD_SET_SUBS                0x11
 #define QT_CMD_SET_GLOBAL_CONFIG       0x12
 #define QT_CMD_SET_CH_CONFIG           0x13
 #define QT_CMD_SET_QM_BURST_LENGTHS    0x14
 #define QT_CMD_SET_USER_DATA           0x15
-
-// Touch MCU data packets
+//! @}
+/*! \name Touch MCU data packets.
+ */
+//! @{
 #define QT_DUMMY                       0x20
 #define QT_SIGN_ON                     0x21
 #define QT_GLOBAL_CONFIG               0x22
@@ -96,47 +100,114 @@ manifest constants
 #define TX_BURST_LEN_PKT_LENGTH           (TX_PKT_HEADER_LENGTH + QT_NUM_CHANNELS)
 #define TX_TIME_STAMPS_PKT_LENGTH         (TX_PKT_HEADER_LENGTH + 22u) 
 #endif
-
-/*----------------------------------------------------------------------------
-extern variables
-----------------------------------------------------------------------------*/
+//! @}
+/*======================== EXTERN VARIABLES ==================================*/
 extern qt_touch_lib_config_data_t qt_config_data;
-extern qt_touch_lib_measure_data_t qt_measure_data;
 extern int16_t qt_get_sensor_delta( uint8_t );
 
-/*----------------------------------------------------------------------------
-prototypes
-----------------------------------------------------------------------------*/
-// Public functions
-void QDebug_Init(void);
-void QDebug_ProcessCommands(void);
-void QDebug_SendData(uint16_t  qt_lib_flags);
-void QDebug_SetSubscriptions(uint16_t once, uint16_t change, uint16_t allways);
+/*============================ PROTOTYPES ====================================*/
+/*! \name Public functions.
+ */
+//! @{
+/*! \brief This API initializes QDebug interface, including the low level
+ * hardware interface (SPI, TWI, USART etc).
+ * \note Must be called before using any other QDebug API.
+ */
+void QDebug_Init (void);
+/*! \brief Command handler for the data received from QTouch Studio
+ * \note This function should be called in the main loop after
+ * measure_sensors to process the data received from QTOuch Studio.
+ */
+void QDebug_ProcessCommands (void);
+/*! \brief Send data to QTouch Studio based on the subscription.
+ * \param  qt_lib_flags:Change flag from measure_sensors.
+ */
+void QDebug_SendData (uint16_t qt_lib_flags);
+/*! \brief Set subscription values.
+ * \note  This function can be used directly in main to set data subscription
+ * if 1way SPI interface is used.
+ */
+void QDebug_SetSubscriptions (uint16_t once, uint16_t change,
+			      uint16_t allways);
 
-extern void set_timer_periode (uint16_t qt_measurement_period_msec);
-
-// Private functions
-void Set_Global_Config(void);
-void Set_Channel_Config(void);
-void Set_Subscriptions(void);
-void Set_Measurement_Period(void);
-void Set_QT_User_Data(uint8_t *);
-#ifdef _QMATRIX_
-   void Set_QM_Burst_Lengths(void);
+#if !(defined(__AVR32__) || defined(__ICCAVR32__) || defined(_TOUCH_ARM_))
+  extern void set_timer_period(uint16_t qt_measurement_period_msec);
 #endif
 
-void Transmit_Dummy(void);
-void Transmit_Sign_On(void);
-void Transmit_Global_Config(void);
-void Transmit_Sensor_Config(void);
-void Transmit_Signals(void);
-void Transmit_Ref(void);
-void Transmit_Delta(void);
-void Transmit_State(void);
+//! @}
+
+/*! \name Private functions.
+ */
+//! @{
+/*! \brief Extract the data packet from QTouch Studio and set global config.
+ * \note  Should only be called from the command handler.
+ */
+void Set_Global_Config (void);
+/*! \brief Extract the data packet from QTouch Studio and set channel config.
+ * \note  Should only be called from the command handler.
+ */
+void Set_Channel_Config (void);
+/*! \brief Set Data Subscription values.
+ * \note  Should only be called from the command handler.
+ */
+void Set_Subscriptions (void);
+/*! \brief Extract the data packet from QTouch Studio and set measurement period.
+ * \note  Should only be called from the command handler.
+ */
+void Set_Measurement_Period (void);
+/*! \brief Extracts user data from QTouch Studio to touch mcu memory.
+ * \param pdata: data pointer.
+ * \note  The data can be binary data.
+ */
+void Set_QT_User_Data (uint8_t *);
+#ifdef _QMATRIX_
+/*! \brief Extract the data packet from QTouch Studio and set QMatrix burst lengths.
+ * \note  Should only be called from the command handler.
+ */
+void Set_QM_Burst_Lengths (void);
+#endif
+/*! \brief Transmits a dummy packet if no other subscriptions are set.
+ */
+void Transmit_Dummy (void);
+/*! \brief Transmits the sign on packet to QTouch Studio.
+ */
+void Transmit_Sign_On (void);
+/*! \brief Transmits the global config struct to QTouch Studio.
+ */
+void Transmit_Global_Config (void);
+/*! \brief Transmits the channel config struct to QTouch Studio.
+ */
+void Transmit_Sensor_Config (void);
+/*! \brief Transmits the measurement values for each channel to QTouch Studio.
+ */
+void Transmit_Signals (void);
+/*! \brief Transmits the channel reference values to QTouch Studio.
+ */
+void Transmit_Ref (void);
+/*! \brief Transmits the channel delta values to QTouch Studio.
+ */
+void Transmit_Delta (void);
+/*! \brief Transmits the state values to QTouch Studio.
+ */
+void Transmit_State (void);
+/*! \brief Transmits user data to QTouch Studio.
+ * \param pdata: data pointer.
+ * \param c: length of data in bytes.
+ * \note The data will be binary data.
+ */
+#ifdef _QMATRIX_
+/*! \brief Transmits the QMatrix burst length values to QTouch Studio
+ * \note This value is available for each channel
+ */
 void Transmit_Burst_Lengths(void);
+#endif
 
-void Transmit_QT_User_Data(uint8_t *pdata, uint16_t c);
+void Transmit_QT_User_Data (uint8_t * pdata, uint16_t c);
+/*! \brief Transmits the application execution timestamp values to QTouch Studio.
+ * \note This value is a combination of current_time_ms_touch (high word) &
+ * timer counter register (low word).
+ */
 void Transmit_Time_Stamps(uint16_t qt_lib_flags);
-
+//! @}
 #endif
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-EOF-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/

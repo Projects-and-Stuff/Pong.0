@@ -3,7 +3,7 @@
 /*! \file *********************************************************************
  *
  * \brief  This file contains the QTouch Libary configuration options for
- *         AVR 8-bit QMatrix method Capacitive Touch acquisition.
+ *         AVR 8-bit QMatrix method Capacitive Touch acquisition.       
  *
  * - Compiler:           IAR EWAVR and GNU GCC for AVR.
  * - Supported devices:  Atmel AVR 8-bit.
@@ -49,7 +49,7 @@
 #ifndef _QM_ASM_AVR_H_
 #define _QM_ASM_AVR_H_
 
-#include "touch.h"
+#include "touch_config.h"
 
 #ifdef _QMATRIX_
 
@@ -191,7 +191,7 @@
 
 /**
   * Macro to build register writes for controlling ports. The intermediate
-  * JOIN macro is required for correct expansion of the args.
+  * JOIN macro is required for correct expansion of the args.   
   */
 #define REG( REGISTER, SIDE ) JOIN( REGISTER, SIDE )
 #define CONCAT( A,B, C ) JOIN1( A,B,C )

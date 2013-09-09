@@ -1,4 +1,4 @@
-/* This source file is part of the ATMEL QTouch Library Release 4.3.1 */
+/* This source file is part of the ATMEL QTouch Library Release 5.0.0 */
 /* This file is prepared for Doxygen automatic documentation generation. */
 /*! \file *********************************************************************
  *
@@ -51,7 +51,7 @@
 #ifndef TOUCH_API_H
 #define TOUCH_API_H
 
-#include "touch.h"
+#include "touch_config.h"
 
 /*----------------------------------------------------------------------------
                             nested include files
@@ -69,13 +69,13 @@
 #if !(defined(__AVR32__) || defined(__ICCAVR32__))
 #include "qm_asm_avr.h"
 #else
-#include "touch_qm_config32.h"
+#include "qm_asm_avr32.h"
 #endif
 #elif defined _QTOUCH_
-#if !(defined(__AVR32__) || defined(__ICCAVR32__))
-
+#if !(defined(__AVR32__) || defined(__ICCAVR32__) || defined(__ICCARM__) || defined(__ARM_EABI__))
 #include "qt_asm_avr.h"
-
+#elif (defined(__ICCARM__) || defined(__ARM_EABI__))
+#include "touch_qt_config.h"
 #endif
 #else
 #error /* please provide any one of the acquisition methods */
@@ -139,14 +139,7 @@
   *
   * Example: PORT_YA=A and PORT_YB=F in the case above.
   */
-#if !(defined(__AVR32__) || defined(__ICCAVR32__))
-//#define FILL_OUT_Y_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
-#define FILL_OUT_YA_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
-#define FILL_OUT_YB_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
-#else
-#define FILL_OUT_YA_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
-#define FILL_OUT_YB_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
-#endif
+#define FILL_OUT_Y_LINE_INFO( bit ) { bit, (TOUCH_DATA_T)(1u<<bit) }
 
 /**
   * Info stored for each ya line.
@@ -159,7 +152,7 @@
   *
   * Example: PORT_YA=A in the case above.
   */
-//FWRAP: #define FILL_OUT_YA_LINE_INFO( bit ) { bit, (uint8_t)(1u<<bit) }
+#define FILL_OUT_YA_LINE_INFO( bit ) { bit, (uint8_t)(1u<<bit) }
 
 /**
   * Info stored for each yb line.
@@ -172,7 +165,7 @@
   *
   * Example: PORT_YB=F in the case above.
   */
-//FWRAP: #define FILL_OUT_YB_LINE_INFO( bit ) { bit, (uint8_t)(1u<<bit) }
+#define FILL_OUT_YB_LINE_INFO( bit ) { bit, (uint8_t)(1u<<bit) }
 
 
 #ifndef MAKE_BUILD

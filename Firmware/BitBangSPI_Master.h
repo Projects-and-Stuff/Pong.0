@@ -8,9 +8,9 @@ void BitBangSPI_Send_Message(void);
 /*============================ MACROS ========================================*/
 
 
-#define CPU_SPEED   8	// MHz
+#define CPU_SPEED   4	// MHz
 
-#define DELAYUS(DELAY) __builtin_avr_delay_cycles((DELAY)*CPU_SPEED);	
+#define DELAYUS(DELAY) __builtin_avr_delay_cycles((DELAY)*CPU_SPEED);
 
 
 
