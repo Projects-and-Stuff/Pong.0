@@ -108,7 +108,7 @@ static void config_rotor_sliders(void);
 ----------------------------------------------------------------------------*/
 
 /*----------------------------------------------------------------------------
-                                    macros
+                                QMatrix macros
 ----------------------------------------------------------------------------*/
 
 #define GET_SENSOR_STATE(SENSOR_NUMBER) qt_measure_data.qt_touch_status.sensor_states[(SENSOR_NUMBER/8)] & (1 << (SENSOR_NUMBER % 8))
@@ -118,6 +118,14 @@ static void config_rotor_sliders(void);
 #undef TICKS_PER_MS
 #define TICKS_PER_MS                1000u
 #endif
+
+/*----------------------------------------------------------------------------
+                                 Pong.0 macros
+----------------------------------------------------------------------------*/
+
+// Find the best way to define the sensor layout, and the associated LED display layout. It may be easiest to define a struct.
+
+
 /*----------------------------------------------------------------------------
                                 global variables
 ----------------------------------------------------------------------------*/

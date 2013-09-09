@@ -305,10 +305,10 @@
 #define MOSI_BB     5
 #define MISO_BB     6
 
-#define SPI_BB_SS      		H
-#define SPI_BB_SCK      	H
-#define SPI_BB_MOSI      	H
-#define SPI_BB_MISO      	H
+#define SPI_BB_SS      		D
+#define SPI_BB_SCK      	D
+#define SPI_BB_MOSI      	D
+#define SPI_BB_MISO      	D
 
 #endif
 
