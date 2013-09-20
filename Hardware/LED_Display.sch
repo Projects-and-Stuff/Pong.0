@@ -40,7 +40,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 8 8
 Title "Pong.0"
-Date "19 sep 2013"
+Date "20 sep 2013"
 Rev "0.3"
 Comp "Projects and Stuff LLC"
 Comment1 ""
@@ -432,7 +432,7 @@ DA 75 EC 6A CB FA 00 00 98 83 56 94 E6 19 38 EA C1 56 AE 6A 0F 00 60 29 48 F0 66
 7B B9 BD 6B 01 00 F0 3F 68 45 11 2B 2C 7C CC 8C 27 DE E4 CF 25 0F 00 60 2F 98 D9 8A EB 5A 7C 74 
 6E 56 52 49 51 4E 59 71 7E 65 C5 4D 0F AF 00 BF F6 21 9D BA 45 88 9C 00 16 00 C0 66 90 E0 00 00 
 AC 42 3B 38 00 00 AB 90 E0 00 00 AC 42 82 03 00 B0 EA FF 00 E3 76 B5 A7 81 B6 BC 08 00 00 00 00 
-49 45 4E 44 AE 42 60 82 F8 $EndBitmap
+49 45 4E 44 AE 42 60 82 A4 $EndBitmap
 EndData
 $EndBitmap
 $Bitmap
@@ -2352,4 +2352,292 @@ Wire Wire Line
 Wire Wire Line
 	1800 4800 1850 4800
 Connection ~ 2200 4800
+Text Label 7100 2250 1    60   ~ 0
+CS1
+Text Label 8000 2250 1    60   ~ 0
+CS2
+Text Label 8900 2250 1    60   ~ 0
+CS3
+Text Label 9800 2250 1    60   ~ 0
+CS4
+Text Label 10700 2250 1    60   ~ 0
+CS5
+Text Label 11600 2250 1    60   ~ 0
+CS6
+Text Label 12500 2250 1    60   ~ 0
+CS7
+Text Label 13400 2250 1    60   ~ 0
+CS8
+Text Label 7100 3300 1    60   ~ 0
+CS10
+Text Label 8000 3300 1    60   ~ 0
+CS11
+Text Label 8900 3300 1    60   ~ 0
+CS12
+Text Label 9800 3300 1    60   ~ 0
+CS13
+Text Label 10700 3300 1    60   ~ 0
+CS14
+Text Label 11600 3300 1    60   ~ 0
+CS15
+Text Label 12500 3300 1    60   ~ 0
+CS16
+Text Label 13400 3300 1    60   ~ 0
+CS17
+Text Label 7100 4350 1    60   ~ 0
+CS0
+Text Label 8000 4350 1    60   ~ 0
+CS2
+Text Label 8900 4350 1    60   ~ 0
+CS3
+Text Label 9800 4350 1    60   ~ 0
+CS4
+Text Label 10700 4350 1    60   ~ 0
+CS5
+Text Label 11600 4350 1    60   ~ 0
+CS6
+Text Label 12500 4350 1    60   ~ 0
+CS7
+Text Label 13400 4350 1    60   ~ 0
+CS8
+Text Label 7100 5400 1    60   ~ 0
+CS9
+Text Label 8000 5400 1    60   ~ 0
+CS11
+Text Label 8900 5400 1    60   ~ 0
+CS12
+Text Label 9800 5400 1    60   ~ 0
+CS13
+Text Label 10700 5400 1    60   ~ 0
+CS14
+Text Label 11600 5400 1    60   ~ 0
+CS15
+Text Label 12500 5400 1    60   ~ 0
+CS16
+Text Label 13400 5400 1    60   ~ 0
+CS17
+Text Label 7100 6400 1    60   ~ 0
+CS0
+Text Label 8000 6400 1    60   ~ 0
+CS1
+Text Label 8900 6400 1    60   ~ 0
+CS3
+Text Label 9800 6400 1    60   ~ 0
+CS4
+Text Label 10700 6400 1    60   ~ 0
+CS5
+Text Label 11600 6400 1    60   ~ 0
+CS6
+Text Label 12500 6400 1    60   ~ 0
+CS7
+Text Label 13400 6400 1    60   ~ 0
+CS8
+Text Label 7100 7450 1    60   ~ 0
+CS9
+Text Label 8000 7450 1    60   ~ 0
+CS10
+Text Label 8900 7450 1    60   ~ 0
+CS12
+Text Label 9800 7450 1    60   ~ 0
+CS13
+Text Label 10700 7450 1    60   ~ 0
+CS14
+Text Label 11600 7450 1    60   ~ 0
+CS15
+Text Label 12500 7450 1    60   ~ 0
+CS16
+Text Label 13400 7450 1    60   ~ 0
+CS17
+Text Label 7200 2250 1    60   ~ 0
+CS0
+Text Label 8100 2250 1    60   ~ 0
+CS1
+Text Label 9000 2250 1    60   ~ 0
+CS2
+Text Label 9900 2250 1    60   ~ 0
+CS4
+Text Label 10800 2250 1    60   ~ 0
+CS5
+Text Label 11700 2250 1    60   ~ 0
+CS6
+Text Label 12600 2250 1    60   ~ 0
+CS7
+Text Label 13500 2250 1    60   ~ 0
+CS8
+Text Label 7200 3300 1    60   ~ 0
+CS9
+Text Label 8100 3300 1    60   ~ 0
+CS10
+Text Label 9000 3300 1    60   ~ 0
+CS11
+Text Label 9900 3300 1    60   ~ 0
+CS13
+Text Label 10800 3300 1    60   ~ 0
+CS14
+Text Label 11700 3300 1    60   ~ 0
+CS15
+Text Label 12600 3300 1    60   ~ 0
+CS16
+Text Label 13500 3300 1    60   ~ 0
+CS17
+Text Label 9900 4350 1    60   ~ 0
+CS3
+Text Label 10800 4350 1    60   ~ 0
+CS5
+Text Label 7200 4350 1    60   ~ 0
+CS0
+Text Label 8100 4350 1    60   ~ 0
+CS1
+Text Label 9000 4350 1    60   ~ 0
+CS2
+Text Label 11700 4350 1    60   ~ 0
+CS6
+Text Label 12600 4350 1    60   ~ 0
+CS7
+Text Label 13500 4350 1    60   ~ 0
+CS8
+Text Label 7200 5400 1    60   ~ 0
+CS9
+Text Label 8100 5400 1    60   ~ 0
+CS10
+Text Label 9000 5400 1    60   ~ 0
+CS11
+Text Label 9900 5400 1    60   ~ 0
+CS12
+Text Label 10800 5400 1    60   ~ 0
+CS14
+Text Label 11700 5400 1    60   ~ 0
+CS15
+Text Label 12600 5400 1    60   ~ 0
+CS16
+Text Label 13500 5400 1    60   ~ 0
+CS17
+Text Label 7200 6400 1    60   ~ 0
+CS0
+Text Label 8100 6400 1    60   ~ 0
+CS1
+Text Label 9000 6400 1    60   ~ 0
+CS2
+Text Label 9900 6400 1    60   ~ 0
+CS3
+Text Label 10800 6400 1    60   ~ 0
+CS4
+Text Label 11700 6400 1    60   ~ 0
+CS6
+Text Label 12600 6400 1    60   ~ 0
+CS7
+Text Label 13500 6400 1    60   ~ 0
+CS8
+Text Label 7200 7450 1    60   ~ 0
+CS9
+Text Label 8100 7450 1    60   ~ 0
+CS10
+Text Label 9000 7450 1    60   ~ 0
+CS11
+Text Label 9900 7450 1    60   ~ 0
+CS12
+Text Label 10800 7450 1    60   ~ 0
+CS13
+Text Label 11700 7450 1    60   ~ 0
+CS15
+Text Label 12600 7450 1    60   ~ 0
+CS16
+Text Label 13500 7450 1    60   ~ 0
+CS17
+Text Label 7300 2250 1    60   ~ 0
+CS0
+Text Label 8200 2250 1    60   ~ 0
+CS1
+Text Label 9100 2250 1    60   ~ 0
+CS2
+Text Label 10000 2250 1    60   ~ 0
+CS3
+Text Label 10900 2250 1    60   ~ 0
+CS4
+Text Label 11800 2250 1    60   ~ 0
+CS5
+Text Label 12700 2250 1    60   ~ 0
+CS7
+Text Label 13600 2250 1    60   ~ 0
+CS8
+Text Label 7300 3300 1    60   ~ 0
+CS9
+Text Label 8200 3300 1    60   ~ 0
+CS10
+Text Label 9100 3300 1    60   ~ 0
+CS11
+Text Label 10000 3300 1    60   ~ 0
+CS12
+Text Label 10900 3300 1    60   ~ 0
+CS13
+Text Label 11800 3300 1    60   ~ 0
+CS14
+Text Label 12700 3300 1    60   ~ 0
+CS16
+Text Label 13600 3300 1    60   ~ 0
+CS17
+Text Label 7300 4350 1    60   ~ 0
+CS0
+Text Label 8200 4350 1    60   ~ 0
+CS1
+Text Label 9100 4350 1    60   ~ 0
+CS2
+Text Label 10000 4350 1    60   ~ 0
+CS3
+Text Label 10900 4350 1    60   ~ 0
+CS4
+Text Label 11800 4350 1    60   ~ 0
+CS5
+Text Label 12700 4350 1    60   ~ 0
+CS6
+Text Label 13600 4350 1    60   ~ 0
+CS8
+Text Label 7300 5400 1    60   ~ 0
+CS9
+Text Label 8200 5400 1    60   ~ 0
+CS10
+Text Label 9100 5400 1    60   ~ 0
+CS11
+Text Label 10000 5400 1    60   ~ 0
+CS12
+Text Label 10900 5400 1    60   ~ 0
+CS13
+Text Label 11800 5400 1    60   ~ 0
+CS14
+Text Label 12700 5400 1    60   ~ 0
+CS15
+Text Label 13600 5400 1    60   ~ 0
+CS17
+Text Label 7300 6400 1    60   ~ 0
+CS0
+Text Label 8200 6400 1    60   ~ 0
+CS1
+Text Label 9100 6400 1    60   ~ 0
+CS2
+Text Label 10000 6400 1    60   ~ 0
+CS3
+Text Label 10900 6400 1    60   ~ 0
+CS4
+Text Label 11800 6400 1    60   ~ 0
+CS5
+Text Label 12700 6400 1    60   ~ 0
+CS6
+Text Label 13600 6400 1    60   ~ 0
+CS7
+Text Label 7300 7450 1    60   ~ 0
+CS9
+Text Label 8200 7450 1    60   ~ 0
+CS10
+Text Label 9100 7450 1    60   ~ 0
+CS11
+Text Label 10000 7450 1    60   ~ 0
+CS12
+Text Label 10900 7450 1    60   ~ 0
+CS13
+Text Label 11800 7450 1    60   ~ 0
+CS14
+Text Label 12700 7450 1    60   ~ 0
+CS15
+Text Label 13600 7450 1    60   ~ 0
+CS16
 $EndSCHEMATC
