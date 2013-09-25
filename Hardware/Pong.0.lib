@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 9/24/2013 9:31:24 PM
+EESchema-LIBRARY Version 2.3  Date: 9/25/2013 2:33:18 PM
 #encoding utf-8
 #
 # AS1107
@@ -292,8 +292,8 @@ ENDDEF
 #
 # R_SMALL
 #
-DEF R_SMALL U 0 40 Y Y 1 F N
-F0 "U" 40 -50 28 H V C CNN
+DEF R_SMALL R 0 40 Y Y 1 F N
+F0 "R" 40 -50 28 H V C CNN
 F1 "R_SMALL" 0 0 22 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
