@@ -40,7 +40,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 3 7
 Title "Pong.0"
-Date "24 sep 2013"
+Date "25 sep 2013"
 Rev "0.3"
 Comp "Projects and Stuff LLC"
 Comment1 ""
@@ -405,13 +405,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 3200 4400 3250
 Connection ~ 4400 3250
-Text HLabel 4450 2950 2    60   Input ~ 0
-PWR_VBUS
-Wire Wire Line
-	4450 2950 4400 2950
-Wire Wire Line
-	4400 2950 4400 3000
-Connection ~ 4400 3000
 Text HLabel 4450 3400 2    60   Input ~ 0
 PWR_D+
 Wire Wire Line
@@ -630,8 +623,8 @@ Text HLabel 9900 5250 2    60   Input ~ 0
 PWR_INT
 Wire Wire Line
 	9850 5250 9900 5250
-Text Notes 10450 4800 2    30   Italic 0
-(Are these really needed if pull-ups are available\nelsewhere? Whould there be a series resistor?)
+Text Notes 9200 5400 2    30   Italic 0
+(Should there be a series resistor?)
 Wire Wire Line
 	8850 4700 8850 4650
 Wire Wire Line
@@ -643,23 +636,6 @@ Connection ~ 9250 4650
 Text HLabel 9300 2400 2    60   Input ~ 0
 PWR_3_3V
 NoConn ~ 7800 3350
-Text HLabel 4450 5100 2    60   Input ~ 0
-PWR_GND
-$Comp
-L GND #PWR?
-U 1 1 52168E05
-P 4400 5150
-F 0 "#PWR?" H 4400 5150 30  0001 C CNN
-F 1 "GND" H 4400 5080 30  0001 C CNN
-F 2 "" H 4400 5150 60  0000 C CNN
-F 3 "" H 4400 5150 60  0000 C CNN
-	1    4400 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 5100 4400 5100
-Wire Wire Line
-	4400 5100 4400 5150
 Wire Wire Line
 	2250 3900 2250 3950
 Wire Wire Line
@@ -1297,7 +1273,7 @@ DA 75 EC 6A CB FA 00 00 98 83 56 94 E6 19 38 EA C1 56 AE 6A 0F 00 60 29 48 F0 66
 7B B9 BD 6B 01 00 F0 3F 68 45 11 2B 2C 7C CC 8C 27 DE E4 CF 25 0F 00 60 2F 98 D9 8A EB 5A 7C 74 
 6E 56 52 49 51 4E 59 71 7E 65 C5 4D 0F AF 00 BF F6 21 9D BA 45 88 9C 00 16 00 C0 66 90 E0 00 00 
 AC 42 3B 38 00 00 AB 90 E0 00 00 AC 42 82 03 00 B0 EA FF 00 E3 76 B5 A7 81 B6 BC 08 00 00 00 00 
-49 45 4E 44 AE 42 60 82 81 $EndBitmap
+49 45 4E 44 AE 42 60 82 D0 $EndBitmap
 EndData
 $EndBitmap
 $Bitmap
