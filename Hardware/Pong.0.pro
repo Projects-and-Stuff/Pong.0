@@ -1,4 +1,4 @@
-update=9/25/2013 3:49:55 PM
+update=9/25/2013 10:57:04 PM
 version=1
 last_client=eeschema
 [cvpcb]
@@ -82,7 +82,7 @@ version=1
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
