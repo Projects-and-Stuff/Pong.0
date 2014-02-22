@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/8/2014 11:10:50 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 2/22/2014 2:14:51 PM
 
 BeginCmp
 TimeStamp = /522A0B3B/5241CE1F;
@@ -1131,84 +1131,28 @@ BeginCmp
 TimeStamp = /522CCF9A/523C7179;
 Reference = QM21;
 ValeurCmp = CAPSENSOR;
-IdModule  = ;
+IdModule  = CapSensor_20mm_x_24mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCF9A/523C717F;
 Reference = QM22;
 ValeurCmp = CAPSENSOR;
-IdModule  = ;
+IdModule  = CapSensor_20mm_x_24mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCF9A/523C7197;
 Reference = QM23;
 ValeurCmp = CAPSENSOR;
-IdModule  = ;
+IdModule  = CapSensor_20mm_x_24mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /522CCF9A/523C71A3;
 Reference = QM24;
 ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A12;
-Reference = QM25;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A0C;
-Reference = QM26;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A06;
-Reference = QM27;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A00;
-Reference = QM28;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C79FA;
-Reference = QM29;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C79D6;
-Reference = QM30;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A23;
-Reference = QM31;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /522CCF9A/523C7A3A;
-Reference = QM32;
-ValeurCmp = CAPSENSOR;
-IdModule  = ;
+IdModule  = CapSensor_20mm_x_24mm;
 EndCmp
 
 BeginCmp
@@ -1593,7 +1537,7 @@ BeginCmp
 TimeStamp = /522CB706/5216DF34;
 Reference = U1;
 ValeurCmp = IP4234CZ6;
-IdModule  = ;
+IdModule  = SOT457;
 EndCmp
 
 BeginCmp
@@ -1607,14 +1551,14 @@ BeginCmp
 TimeStamp = /522CB706/522CC8BC;
 Reference = U3;
 ValeurCmp = TPS61240;
-IdModule  = ;
+IdModule  = QFN-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /52299B51/523B3902;
 Reference = U4;
 ValeurCmp = AS1119;
-IdModule  = ;
+IdModule  = WLCSP-36;
 EndCmp
 
 BeginCmp
@@ -1650,6 +1594,13 @@ TimeStamp = /522DE5CB/5241DAA8;
 Reference = U9;
 ValeurCmp = ATXMEGA64A3U-A;
 IdModule  = TQFP64;
+EndCmp
+
+BeginCmp
+TimeStamp = /522CCF9A/53090843;
+Reference = U10;
+ValeurCmp = CAPSLIDER;
+IdModule  = CapSensor_Slider_16mm_x_66mm;
 EndCmp
 
 BeginCmp

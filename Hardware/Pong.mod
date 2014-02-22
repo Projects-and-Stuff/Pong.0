@@ -1,13 +1,189 @@
-PCBNEW-LibModule-V1  2/8/2014 10:54:37 PM
+PCBNEW-LibModule-V1  2/22/2014 1:58:44 PM
 # encoding utf-8
 Units mm
 $INDEX
+CapSensor_17mm_x_17mm
+CapSensor_19mm_x_19mm
+CapSensor_20mm_x_24mm
+CapSensor_Slider_16mm_x_66mm
 Capsensor_25mm_x_50mm
 Capsensor_25mm_x_60mm
 Capsensor_35mm_x_50mm
 Capsensor_35mm_x_60mm
 PLCC-5050
+QFN-6
+SOT457
+WLCSP-36
 $EndINDEX
+$MODULE CapSensor_17mm_x_17mm
+Po 0 0 0 15 52FE6439 00000000 ~~
+Li CapSensor_17mm_x_17mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -21.5 1 1 0 0.1 N V 21 N "CapSensor_17mm_x_17mm"
+T1 0 18 1 1 0 0.1 N V 21 N "VAL**"
+$EndMODULE CapSensor_17mm_x_17mm
+$MODULE CapSensor_19mm_x_19mm
+Po 0 0 0 15 5308EE9A 00000000 ~~
+Li CapSensor_19mm_x_19mm
+Sc 0
+AR 
+Op 0 0 0
+T0 -10.25 -8 1 1 900 0.1 N V 21 N "CapSensor_19mm_x_19mm"
+T1 5.75 2 1 1 0 0.1 N V 21 N "VAL**"
+DS 0 -19 0 -24.5 0.15 15
+DS 9 -20 9 -16 2 15
+DS 3 -22 7 -22 2 15
+DS 7 -22 9 -20 2 15
+DS -9 -20 -9 -16 2 15
+DS -3 -22 -7 -22 2 15
+DS -7 -22 -9 -20 2 15
+DS -5 -19 5 -19 0.15 15
+DS -6 -18 -6 -3 0.15 15
+DS 6 -18 6 -3 0.15 15
+DS 5 -19 6 -18 0.15 15
+DS -5 -19 -6 -18 0.15 15
+DS -9 0 9 0 2 15
+DS -9 0 -9 -16 2 15
+DS 9 0 9 -16 2 15
+DS -3 0 -3 -16 2 15
+DS 3 0 3 -16 2 15
+DS 0 -19 0 -3 0.15 15
+$PAD
+Sh "X" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "Y" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -25
+$EndPAD
+$EndMODULE CapSensor_19mm_x_19mm
+$MODULE CapSensor_20mm_x_24mm
+Po 0 0 0 15 5308EEBF 00000000 ~~
+Li CapSensor_20mm_x_24mm
+Sc 0
+AR 
+Op 0 0 0
+T0 -11 -10 1 1 900 0.1 N V 21 N "CapSensor_20mm_x_24mm"
+T1 5.75 2 1 1 0 0.1 N V 21 N "VAL**"
+DS 0 -19 0 -24.5 0.15 15
+DS 9 -20 9 -16 2 15
+DS 3 -22 7 -22 2 15
+DS 7 -22 9 -20 2 15
+DS -9 -20 -9 -16 2 15
+DS -3 -22 -7 -22 2 15
+DS -7 -22 -9 -20 2 15
+DS -5 -19 5 -19 0.15 15
+DS -6 -18 -6 -3 0.15 15
+DS 6 -18 6 -3 0.15 15
+DS 5 -19 6 -18 0.15 15
+DS -5 -19 -6 -18 0.15 15
+DS -9 0 9 0 2 15
+DS -9 0 -9 -16 2 15
+DS 9 0 9 -16 2 15
+DS -3 0 -3 -16 2 15
+DS 3 0 3 -16 2 15
+DS 0 -19 0 -3 0.15 15
+$PAD
+Sh "X" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1
+$EndPAD
+$PAD
+Sh "Y" C 2 2 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -25
+$EndPAD
+$EndMODULE CapSensor_20mm_x_24mm
+$MODULE CapSensor_Slider_16mm_x_66mm
+Po 0 0 0 15 5308F30F 00000000 ~~
+Li CapSensor_Slider_16mm_x_66mm
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -9.4 1.5 1.5 0 0.15 N V 21 N "CapSensor_Slider_16mm_x_66mm"
+T1 0 9.8 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -33.7 0 -34.7 0 0.15 15
+DS -33.7 0 -33.7 4 0.15 15
+DS -33.7 4 33.7 4 0.15 15
+DS -33.7 0 -33.7 -4 0.15 15
+DS -33.7 -4 33.7 -4 0.15 15
+DS -33.7 0 33.7 0 0.15 15
+$PAD
+Sh "X1" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po -28.7 0
+$EndPAD
+$PAD
+Sh "X2" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po -20.5 0
+$EndPAD
+$PAD
+Sh "X3" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po -12.3 0
+$EndPAD
+$PAD
+Sh "X4" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po -4.1 0
+$EndPAD
+$PAD
+Sh "X5" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 4.1 0
+$EndPAD
+$PAD
+Sh "X6" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 12.3 0
+$EndPAD
+$PAD
+Sh "X7" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 20.5 0
+$EndPAD
+$PAD
+Sh "X8" R 8 16 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 28.7 0
+$EndPAD
+$PAD
+Sh "Y" C 1 1 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -34.7 0
+$EndPAD
+$EndMODULE CapSensor_Slider_16mm_x_66mm
 $MODULE Capsensor_25mm_x_50mm
 Po 0 0 0 15 52F536FC 00000000 ~~
 Li Capsensor_25mm_x_50mm
@@ -398,4 +574,414 @@ Ne 0 ""
 Po -2.55016 1.6002
 $EndPAD
 $EndMODULE PLCC-5050
+$MODULE QFN-6
+Po 0 0 0 15 5308E8AD 00000000 ~~
+Li QFN-6
+Sc 0
+AR 
+Op 0 0 0
+T0 -1.6 0 1 1 900 0.1 N V 21 N "QFN-6"
+T1 1.9 0 1 1 900 0.1 N V 21 N "VAL**"
+DS 0.75 -1 1 -1 0.05 21
+DS 1 -1 1 1 0.05 21
+DS 1 1 0.75 1 0.05 21
+DS -0.75 -1 -1 -1 0.05 21
+DS -1 -1 -1 1 0.05 21
+DS -1 1 -0.75 1 0.05 21
+DC -0.8 1.5 -0.85 1.55 0.05 21
+$PAD
+Sh "GNDP" R 1.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.55 1.05
+$EndPAD
+$PAD
+Sh "2" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.05
+$EndPAD
+$PAD
+Sh "3" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.55 1.05
+$EndPAD
+$PAD
+Sh "4" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.55 -1.05
+$EndPAD
+$PAD
+Sh "5" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.05
+$EndPAD
+$PAD
+Sh "6" R 0.3 0.7 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.55 -1.05
+$EndPAD
+$PAD
+Sh "GNDP" C 0.3 0.3 0 0 0
+Dr 0.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.35 0
+$EndPAD
+$PAD
+Sh "GNDP" C 0.3 0.3 0 0 0
+Dr 0.3 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.35 0
+$EndPAD
+$PAD
+Sh "GNDP" R 1.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00440001
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE QFN-6
+$MODULE SOT457
+Po 0 0 0 15 5308E4B3 00000000 ~~
+Li SOT457
+Sc 0
+AR 
+Op 0 0 0
+T0 -2.3 0 1 1 900 0.1 N V 21 N "SOT457"
+T1 2.35 0 1 1 900 0.1 N V 21 N "VAL**"
+DC -1.7 1.15 -1.75 1.2 0.05 21
+DS 1.45 -1.05 1.6 -1.05 0.05 21
+DS 1.6 -1.05 1.6 1.05 0.05 21
+DS 1.6 1.05 1.45 1.05 0.05 21
+DS -1.45 -1.05 -1.6 -1.05 0.05 21
+DS -1.6 -1.05 -1.6 1.05 0.05 21
+DS -1.6 1.05 -1.45 1.05 0.05 21
+$PAD
+Sh "2" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.05
+$EndPAD
+$PAD
+Sh "3" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 1.05
+$EndPAD
+$PAD
+Sh "1" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 1.05
+$EndPAD
+$PAD
+Sh "6" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.95 -1.05
+$EndPAD
+$PAD
+Sh "5" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.05
+$EndPAD
+$PAD
+Sh "4" R 0.4 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.95 -1.05
+$EndPAD
+$EndMODULE SOT457
+$MODULE WLCSP-36
+Po 0 0 0 15 530627AF 00000000 ~~
+Li WLCSP-36
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.75 0.5 0.5 0 0.05 N V 21 N "WLCSP-36"
+T1 0 2.7 0.5 0.5 0 0.05 N V 21 N "VAL**"
+DC 1.25 -1.6 1.3 -1.65 0.05 21
+DS -1.5 -1.5 1.5 -1.5 0.05 21
+DS 1.5 -1.5 1.5 1.5 0.05 21
+DS 1.5 1.5 -1.5 1.5 0.05 21
+DS -1.5 1.5 -1.5 -1.5 0.05 21
+$PAD
+Sh "A1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -1.25
+$EndPAD
+$PAD
+Sh "A2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -1.25
+$EndPAD
+$PAD
+Sh "A3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -1.25
+$EndPAD
+$PAD
+Sh "A4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -1.25
+$EndPAD
+$PAD
+Sh "A5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -1.25
+$EndPAD
+$PAD
+Sh "A6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -1.25
+$EndPAD
+$PAD
+Sh "B1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -0.75
+$EndPAD
+$PAD
+Sh "B2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -0.75
+$EndPAD
+$PAD
+Sh "B3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -0.75
+$EndPAD
+$PAD
+Sh "B4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -0.75
+$EndPAD
+$PAD
+Sh "B5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -0.75
+$EndPAD
+$PAD
+Sh "B6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -0.75
+$EndPAD
+$PAD
+Sh "C1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -0.25
+$EndPAD
+$PAD
+Sh "C2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -0.25
+$EndPAD
+$PAD
+Sh "C3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -0.25
+$EndPAD
+$PAD
+Sh "C4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -0.25
+$EndPAD
+$PAD
+Sh "C5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -0.25
+$EndPAD
+$PAD
+Sh "C6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 -0.25
+$EndPAD
+$PAD
+Sh "D1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 0.25
+$EndPAD
+$PAD
+Sh "D2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 0.25
+$EndPAD
+$PAD
+Sh "D3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 0.25
+$EndPAD
+$PAD
+Sh "D4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.25
+$EndPAD
+$PAD
+Sh "D5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 0.25
+$EndPAD
+$PAD
+Sh "D6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 0.25
+$EndPAD
+$PAD
+Sh "E1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 0.75
+$EndPAD
+$PAD
+Sh "E2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 0.75
+$EndPAD
+$PAD
+Sh "E3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 0.75
+$EndPAD
+$PAD
+Sh "E4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 0.75
+$EndPAD
+$PAD
+Sh "E5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 0.75
+$EndPAD
+$PAD
+Sh "E6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 0.75
+$EndPAD
+$PAD
+Sh "F1" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 1.25
+$EndPAD
+$PAD
+Sh "F2" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 1.25
+$EndPAD
+$PAD
+Sh "F3" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 1.25
+$EndPAD
+$PAD
+Sh "F4" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 1.25
+$EndPAD
+$PAD
+Sh "F5" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 1.25
+$EndPAD
+$PAD
+Sh "F6" C 0.325 0.325 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 1.25
+$EndPAD
+$EndMODULE WLCSP-36
 $EndLIBRARY
